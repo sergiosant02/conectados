@@ -1,0 +1,41 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-16 17:55:36 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 12550@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-16 17:55:36 #2 store] 
+Configuration path: ?
+
+[2024-03-16 17:55:36 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-16 17:55:36 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-16 17:55:36 #5 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-16 17:55:36 #6 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-16 17:55:36 #7 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-16 17:55:36 #8 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-16 17:55:36 #9 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-16 17:55:36 #10 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-16 17:55:36 #11 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-16 17:55:36 #12 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-16 17:55:40 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 12550@MacBook-Pro-de-Sergio-2.local
+

@@ -1,0 +1,2097 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 15:51:15 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 95921@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 15:51:15 #2 store] 
+Configuration path: ?
+
+[2024-03-18 15:51:15 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 15:51:15 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 15:51:15 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 15:51:15 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 15:51:15 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 15:51:15 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 15:51:15 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 15:51:15 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 15:51:15 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 15:51:15 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 15:51:18 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 95921@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 15:52:43 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 97684@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 15:52:43 #2 store] 
+Configuration path: ?
+
+[2024-03-18 15:52:43 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 15:52:43 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 15:52:43 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 15:52:43 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 15:52:43 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 15:52:43 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 15:52:43 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 15:52:43 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 15:52:43 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 15:52:43 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 15:52:47 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 97684@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 15:57:27 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 2845@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 15:57:27 #2 store] 
+Configuration path: ?
+
+[2024-03-18 15:57:27 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 15:57:27 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 15:57:27 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 15:57:27 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 15:57:27 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 15:57:27 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 15:57:27 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 15:57:27 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 15:57:27 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 15:57:27 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 15:57:30 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 2845@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:00:19 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 5145@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:00:19 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:00:19 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:00:19 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:00:19 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:00:19 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:00:19 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:00:19 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:00:19 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:00:19 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:00:19 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:00:19 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:00:19 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 5145@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:00:59 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 5659@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:00:59 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:00:59 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:00:59 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:00:59 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:00:59 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:00:59 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:00:59 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:00:59 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:00:59 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:00:59 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:00:59 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:00:59 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 5659@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:08:58 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 11562@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:08:58 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:08:58 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:08:58 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:08:58 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:08:58 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:08:58 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:08:58 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:08:58 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:08:58 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:08:58 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:08:58 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:08:58 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 11562@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:09:01 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 11585@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:09:01 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:09:01 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:09:01 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:09:01 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:09:01 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:09:01 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:09:01 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:09:01 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:09:01 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:09:01 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:09:01 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:09:01 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 11585@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:09:52 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 12299@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:09:52 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:09:53 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:09:53 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:09:53 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:09:53 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:09:53 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:09:53 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:09:53 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:09:53 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:09:53 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:09:53 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:09:53 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 12299@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:11:38 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 13626@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:11:38 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:11:38 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:11:38 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:11:38 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:11:38 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:11:38 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:11:38 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:11:38 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:11:38 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:11:38 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:11:38 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:11:38 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 13626@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:12:49 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 14516@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:12:49 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:12:49 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:12:49 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:12:49 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:12:49 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:12:49 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:12:49 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:12:49 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:12:49 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:12:49 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:12:49 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:12:49 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 14516@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:13:22 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 14914@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:13:22 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:13:22 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:13:22 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:13:22 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:13:22 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:13:22 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:13:22 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:13:22 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:13:22 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:13:22 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:13:22 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:13:23 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 14914@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:13:56 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 15294@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:13:56 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:13:56 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:13:56 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:13:56 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:13:56 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:13:56 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:13:56 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:13:56 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:13:56 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:13:56 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:13:56 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:13:56 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 15294@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:14:13 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 15547@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:14:13 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:14:13 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:14:13 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:14:13 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:14:13 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:14:13 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:14:13 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:14:13 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:14:13 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:14:13 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:14:13 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:14:14 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 15547@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:14:21 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 15673@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:14:21 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:14:21 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:14:21 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:14:21 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:14:21 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:14:21 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:14:21 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:14:21 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:14:21 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:14:21 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:14:21 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:14:21 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 15673@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:15:04 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 16190@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:15:04 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:15:04 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:15:04 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:15:04 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:15:04 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:15:04 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:15:04 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:15:04 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:15:04 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:15:04 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:15:04 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:15:04 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 16190@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:15:24 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 16451@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:15:24 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:15:24 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:15:24 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:15:24 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:15:24 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:15:24 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:15:24 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:15:24 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:15:24 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:15:24 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:15:24 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:15:24 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 16451@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:15:33 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 16589@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:15:33 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:15:33 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:15:33 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:15:33 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:15:33 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:15:33 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:15:33 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:15:33 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:15:33 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:15:33 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:15:33 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:15:33 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 16589@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:16:19 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 17123@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:16:19 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:16:19 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:16:19 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:16:19 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:16:19 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:16:19 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:16:19 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:16:19 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:16:19 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:16:19 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:16:19 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:16:19 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 17123@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:17:38 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 18129@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:17:38 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:17:38 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:17:38 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:17:38 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:17:38 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:17:38 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:17:38 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:17:38 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:17:38 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:17:38 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:17:38 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:17:38 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 18129@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:18:29 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 18773@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:18:29 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:18:29 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:18:29 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:18:29 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:18:29 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:18:29 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:18:29 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:18:29 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:18:29 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:18:29 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:18:29 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:18:39 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 18773@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:18:40 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 18941@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:18:40 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:18:40 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:18:40 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:18:40 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:18:40 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:18:40 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:18:40 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:18:40 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:18:40 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:18:40 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:18:40 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:18:47 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 18941@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:19:01 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 19204@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:19:01 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:19:01 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:19:01 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:19:01 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:19:01 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:19:01 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:19:01 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:19:01 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:19:01 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:19:01 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:19:01 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:19:07 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 19204@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:20:40 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 20500@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:20:40 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:20:40 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:20:40 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:20:40 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:20:40 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:20:40 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:20:40 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:20:40 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:20:40 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:20:40 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:20:40 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:20:40 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 20500@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:21:15 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 20904@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:21:15 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:21:15 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:21:15 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:21:15 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:21:15 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:21:15 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:21:15 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:21:15 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:21:15 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:21:15 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:21:15 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:22:08 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 20904@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:29:17 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 27093@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:29:17 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:29:17 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:29:17 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:29:17 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:29:17 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:29:17 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:29:17 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:29:17 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:29:17 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:29:17 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:29:17 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:30:40 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' has been recovered (tr. 8-10)
+
+[2024-03-18 16:30:40 #2 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 28503@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:30:40 #3 store] 
+Configuration path: ?
+
+[2024-03-18 16:30:40 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:30:40 #5 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:30:40 #6 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:30:40 #7 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:30:40 #8 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:30:40 #9 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:30:40 #10 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:30:40 #11 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:30:40 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:30:40 #13 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:30:56 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 28778@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:30:56 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:30:56 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:30:56 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:30:56 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:30:56 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:30:56 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:30:56 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:30:56 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:30:56 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:30:56 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:30:56 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:31:53 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 29648@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:31:53 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:31:53 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:31:53 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:31:53 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:31:53 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:31:53 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:31:53 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:31:53 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:31:53 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:31:53 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:31:53 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:31:54 #13 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 29648@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:32:34 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 30169@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:32:34 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:32:34 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:32:34 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:32:34 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:32:34 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:32:34 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:32:34 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:32:34 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:32:34 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:32:34 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:32:34 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:35:15 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' has been recovered (tr. 11-11)
+
+[2024-03-18 16:35:15 #2 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 32854@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:35:15 #3 store] 
+Configuration path: ?
+
+[2024-03-18 16:35:15 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:35:15 #5 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:35:15 #6 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:35:15 #7 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:35:15 #8 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:35:15 #9 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:35:15 #10 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:35:15 #11 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:35:15 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:35:15 #13 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:37:06 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 34726@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:37:06 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:37:06 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:37:06 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:37:06 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:37:06 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:37:06 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:37:06 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:37:06 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:37:06 #10 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 16:37:06 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:37:06 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:38:13 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 35741@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:38:13 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:39:09 #3 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 35741@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:40:05 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 37127@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:40:05 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:40:05 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:40:05 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:40:05 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:40:05 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:40:05 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:40:05 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:40:05 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:40:05 #10 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:40:05 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:40:05 #12 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:42:52 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' has been recovered (tr. 1-11)
+
+[2024-03-18 16:42:52 #2 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 39965@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:42:52 #3 store] 
+Configuration path: ?
+
+[2024-03-18 16:42:52 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:42:52 #5 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:42:52 #6 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:42:52 #7 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:42:52 #8 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:42:52 #9 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:42:52 #10 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:42:52 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:42:52 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:42:52 #13 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 16:48:21 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 45442@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 16:48:21 #2 store] 
+Configuration path: ?
+
+[2024-03-18 16:48:21 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 16:48:21 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 16:48:21 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 16:48:21 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 16:48:21 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 16:48:21 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 16:48:21 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 16:48:21 #10 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 16:48:21 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 16:48:21 #12 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 17:02:39 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' has been recovered (tr. 1-9)
+
+[2024-03-18 17:02:39 #2 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 59645@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 17:02:39 #3 store] 
+Configuration path: ?
+
+[2024-03-18 17:02:42 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 59645@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 17:03:11 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 60075@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 17:03:11 #2 store] 
+Configuration path: ?
+
+[2024-03-18 17:03:11 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 17:03:11 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 17:03:11 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 17:03:11 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 17:03:11 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 17:03:11 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 17:03:11 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 17:03:11 #10 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 17:03:11 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 17:03:11 #12 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 17:14:14 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' has been recovered (tr. 1-9)
+
+[2024-03-18 17:14:14 #2 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 71166@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 17:14:14 #3 store] 
+Configuration path: ?
+
+[2024-03-18 17:14:14 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 17:14:14 #5 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 17:14:14 #6 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 17:14:14 #7 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 17:14:14 #8 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 17:14:14 #9 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 17:14:14 #10 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 17:14:14 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 17:14:14 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 17:14:14 #13 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 17:14:32 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 71454@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 17:14:32 #2 store] 
+Configuration path: ?
+
+[2024-03-18 17:14:32 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 17:14:32 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 17:14:32 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 17:14:32 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 17:14:32 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 17:14:32 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 17:14:32 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 17:14:32 #10 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 17:14:32 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 17:14:32 #12 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 17:14:38 #13 *] 
+java.lang.NullPointerException: Cannot invoke "com.objectdb.o.UMR.YS()" because "<parameter1>" is null
+	at com.objectdb.o.VAR.D(VAR.java:642)
+	at com.objectdb.o.QNF.s(QNF.java:987)
+	at com.objectdb.o.QNF.q(QNF.java:796)
+	at com.objectdb.o.QNF.v(QNF.java:259)
+	at com.objectdb.o.SYR.d(SYR.java:292)
+	at com.objectdb.o.SYR.f(SYR.java:182)
+	at com.objectdb.o.QRC.<init>(QRC.java:158)
+	at com.objectdb.o.QRM.ZP(QRM.java:272)
+	at com.objectdb.o.MST.ZP(MST.java:1026)
+	at com.objectdb.o.WRA.ZP(WRA.java:313)
+	at com.objectdb.o.WSM.ZP(WSM.java:117)
+	at com.objectdb.o.QRR.k(QRR.java:260)
+	at com.objectdb.o.QRR.i(QRR.java:154)
+	at com.objectdb.o.QRR.a(QRR.java:634)
+	at com.objectdb.o.IMQ.a(IMQ.java:144)
+	at com.objectdb.o.UMR.A(UMR.java:512)
+	at com.objectdb.o.ENT.loadInverse(ENT.java:1562)
+	at com.objectdb.o.IVP.h(IVP.java:150)
+	at com.objectdb.o.IVP.a(IVP.java:138)
+	at com.objectdb.o.ILP.size(ILP.java:233)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:97)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1514)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1007)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.sergiosantiago.conectados.config.JWTAuthorizationFilter.doFilterInternal(JWTAuthorizationFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:96)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+[2024-03-18 17:44:13 #14 *] 
+java.lang.NullPointerException: Cannot invoke "com.objectdb.o.UMR.YS()" because "<parameter1>" is null
+	at com.objectdb.o.VAR.D(VAR.java:642)
+	at com.objectdb.o.QNF.s(QNF.java:987)
+	at com.objectdb.o.QNF.q(QNF.java:796)
+	at com.objectdb.o.QNF.v(QNF.java:259)
+	at com.objectdb.o.SYR.d(SYR.java:292)
+	at com.objectdb.o.SYR.f(SYR.java:182)
+	at com.objectdb.o.QRC.<init>(QRC.java:158)
+	at com.objectdb.o.QRM.ZP(QRM.java:272)
+	at com.objectdb.o.MST.ZP(MST.java:1026)
+	at com.objectdb.o.WRA.ZP(WRA.java:313)
+	at com.objectdb.o.WSM.ZP(WSM.java:117)
+	at com.objectdb.o.QRR.k(QRR.java:260)
+	at com.objectdb.o.QRR.i(QRR.java:154)
+	at com.objectdb.o.QRR.a(QRR.java:634)
+	at com.objectdb.o.IMQ.a(IMQ.java:144)
+	at com.objectdb.o.UMR.A(UMR.java:512)
+	at com.objectdb.o.ENT.loadInverse(ENT.java:1562)
+	at com.objectdb.o.IVP.h(IVP.java:150)
+	at com.objectdb.o.IVP.a(IVP.java:138)
+	at com.objectdb.o.ILP.size(ILP.java:233)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:97)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1514)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1007)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.sergiosantiago.conectados.config.JWTAuthorizationFilter.doFilterInternal(JWTAuthorizationFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:96)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 17:44:21 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' has been recovered (tr. 1-10)
+
+[2024-03-18 17:44:21 #2 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 87457@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 17:44:21 #3 store] 
+Configuration path: ?
+
+[2024-03-18 17:44:21 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 17:44:21 #5 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 17:44:21 #6 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 17:44:21 #7 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 17:44:21 #8 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 17:44:21 #9 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 17:44:21 #10 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 17:44:21 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 17:44:21 #12 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 17:44:21 #13 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 17:44:26 #14 *] 
+java.lang.NullPointerException: Cannot invoke "com.objectdb.o.UMR.YS()" because "<parameter1>" is null
+	at com.objectdb.o.VAR.D(VAR.java:642)
+	at com.objectdb.o.QNF.s(QNF.java:987)
+	at com.objectdb.o.QNF.q(QNF.java:796)
+	at com.objectdb.o.QNF.v(QNF.java:259)
+	at com.objectdb.o.SYR.d(SYR.java:292)
+	at com.objectdb.o.SYR.f(SYR.java:182)
+	at com.objectdb.o.QRC.<init>(QRC.java:158)
+	at com.objectdb.o.QRM.ZP(QRM.java:272)
+	at com.objectdb.o.MST.ZP(MST.java:1026)
+	at com.objectdb.o.WRA.ZP(WRA.java:313)
+	at com.objectdb.o.WSM.ZP(WSM.java:117)
+	at com.objectdb.o.QRR.k(QRR.java:260)
+	at com.objectdb.o.QRR.i(QRR.java:154)
+	at com.objectdb.o.QRR.a(QRR.java:634)
+	at com.objectdb.o.IMQ.a(IMQ.java:144)
+	at com.objectdb.o.UMR.A(UMR.java:512)
+	at com.objectdb.o.ENT.loadInverse(ENT.java:1562)
+	at com.objectdb.o.IVP.h(IVP.java:150)
+	at com.objectdb.o.IVP.a(IVP.java:138)
+	at com.objectdb.o.ILP.size(ILP.java:233)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:97)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1514)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1007)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.sergiosantiago.conectados.config.JWTAuthorizationFilter.doFilterInternal(JWTAuthorizationFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:96)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-18 17:46:10 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 89195@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-18 17:46:10 #2 store] 
+Configuration path: ?
+
+[2024-03-18 17:46:10 #3 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseEntity is not enhanced.
+
+[2024-03-18 17:46:10 #4 type] 
+Type com.sergiosantiago.conectados.models.Base.BaseNamedEntity is not enhanced.
+
+[2024-03-18 17:46:10 #5 type] 
+Type com.sergiosantiago.conectados.models.User is not enhanced.
+
+[2024-03-18 17:46:10 #6 type] 
+Type com.sergiosantiago.conectados.models.ProductCategory is not enhanced.
+
+[2024-03-18 17:46:10 #7 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-18 17:46:10 #8 type] 
+Type com.sergiosantiago.conectados.models.Note is not enhanced.
+
+[2024-03-18 17:46:10 #9 type] 
+Type com.sergiosantiago.conectados.models.Room is not enhanced.
+
+[2024-03-18 17:46:10 #10 type] 
+Type com.sergiosantiago.conectados.models.ShoppingItem is not enhanced.
+
+[2024-03-18 17:46:10 #11 type] 
+Type com.sergiosantiago.conectados.models.ShoppingList is not enhanced.
+
+[2024-03-18 17:46:10 #12 type] 
+Type com.sergiosantiago.conectados.models.Base.Role is not enhanced.
+
+[2024-03-18 17:46:13 #13 *] 
+java.lang.NullPointerException: Cannot invoke "com.objectdb.o.UMR.YS()" because "<parameter1>" is null
+	at com.objectdb.o.VAR.D(VAR.java:642)
+	at com.objectdb.o.QNF.s(QNF.java:987)
+	at com.objectdb.o.QNF.q(QNF.java:796)
+	at com.objectdb.o.QNF.v(QNF.java:259)
+	at com.objectdb.o.SYR.d(SYR.java:292)
+	at com.objectdb.o.SYR.f(SYR.java:182)
+	at com.objectdb.o.QRC.<init>(QRC.java:158)
+	at com.objectdb.o.QRM.ZP(QRM.java:272)
+	at com.objectdb.o.MST.ZP(MST.java:1026)
+	at com.objectdb.o.WRA.ZP(WRA.java:313)
+	at com.objectdb.o.WSM.ZP(WSM.java:117)
+	at com.objectdb.o.QRR.k(QRR.java:260)
+	at com.objectdb.o.QRR.i(QRR.java:154)
+	at com.objectdb.o.QRR.a(QRR.java:634)
+	at com.objectdb.o.IMQ.a(IMQ.java:144)
+	at com.objectdb.o.UMR.A(UMR.java:512)
+	at com.objectdb.o.ENT.loadInverse(ENT.java:1562)
+	at com.objectdb.o.IVP.h(IVP.java:150)
+	at com.objectdb.o.IVP.a(IVP.java:138)
+	at com.objectdb.o.ILP.size(ILP.java:233)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:97)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1514)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1007)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.sergiosantiago.conectados.config.JWTAuthorizationFilter.doFilterInternal(JWTAuthorizationFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:96)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+

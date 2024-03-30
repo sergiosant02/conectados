@@ -1,0 +1,22 @@
+default:
+  password: password123
+  
+errors:
+  invalidEmail: Email invalid
+  
+security:
+  token:
+    expritation: 864000000
+    header: Authorization
+    key: gerv23y4087tby2348u
+    prefix: 'Bearer '
+    
+server:
+  port: 8080
+  
+spring:
+  application:
+    name: conectados
+  devtools:
+    restart:
+      enabled: true

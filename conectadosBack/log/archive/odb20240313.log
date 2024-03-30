@@ -1,0 +1,283 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 06:36:46 #1 server] 
+Server on port 6136 has started by 64877@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 06:52:45 #1 server] 
+Server on port 6136 has started by 79162@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 20:58:04 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/spring-data-jpa-test.odb' is opened by 66658@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 20:58:04 #2 store] 
+Configuration path: ?
+
+[2024-03-13 20:58:04 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 20:58:04 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/spring-data-jpa-test.odb' is closed by 66658@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 20:59:22 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/spring-data-jpa-test.odb' is opened by 67658@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 20:59:22 #2 store] 
+Configuration path: ?
+
+[2024-03-13 20:59:22 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 20:59:23 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/spring-data-jpa-test.odb' is closed by 67658@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:01:48 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/spring-data-jpa-test.odb' is opened by 69480@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:01:48 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:01:48 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 21:01:48 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/spring-data-jpa-test.odb' is closed by 69480@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:02:36 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/spring-data-jpa-test.odb' is opened by 70091@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:02:36 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:02:36 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 21:02:46 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/spring-data-jpa-test.odb' is closed by 70091@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:03:28 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 70809@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:03:28 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:03:28 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 21:03:41 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 70809@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:04:02 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 71270@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:04:02 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:04:02 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 21:04:09 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 71270@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:13:51 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 78114@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:13:51 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:13:51 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 21:13:51 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 78114@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:14:21 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 78500@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:14:21 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:14:21 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 21:14:22 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 78500@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:14:33 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 78646@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:14:33 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:14:33 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 21:14:33 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 78646@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:14:54 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 78911@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:14:54 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:14:54 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 21:14:54 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 78911@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:15:32 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 79432@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:15:32 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:15:32 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 21:15:33 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 79432@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:16:30 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 80212@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:16:30 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:16:30 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 21:16:31 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 80212@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:16:51 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 80482@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:16:51 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:16:51 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 21:16:52 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 80482@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:17:20 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 80860@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:17:20 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:17:20 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 21:17:20 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 80860@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:17:46 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 81138@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:17:46 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:17:46 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 21:25:23 #2 server] 
+Server on port 6136 has stopped by 79162@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:30:21 #1 explorer] 
+[ObjectDB 2.8.9] javax.persistence.PersistenceException
+Attempt to open a database file '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' that is currently in use by another process (error 141)
+	at com.objectdb.Explorer$1.run(Explorer.java:57)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:771)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:741)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Caused by: com.objectdb.o.UserException: Attempt to open a database file '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' that is currently in use by another process
+	at com.objectdb.o.MSG.a(MSG.java:64)
+	at com.objectdb.o.LFL.J(LFL.java:947)
+	at com.objectdb.o.LFL.x(LFL.java:904)
+	at com.objectdb.o.LFL.x(LFL.java:814)
+	at com.objectdb.o.DFL.<init>(DFL.java:241)
+	at com.objectdb.o.DMG.<init>(DMG.java:27)
+	at com.objectdb.o.MST.<init>(MST.java:127)
+	at com.objectdb.o.MST.ap(MST.java:109)
+	at com.objectdb.o.MSF.Y9(MSF.java:190)
+	at com.objectdb.o.OMF.s(OMF.java:805)
+	at com.objectdb.jpa.EMF.s(EMF.java:130)
+	at com.objectdb.o.OMF.x(OMF.java:716)
+	at com.objectdb.jpa.EMF.createEntityManager(EMF.java:149)
+	... 16 more
+
+[2024-03-13 21:30:24 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 81138@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:30:28 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 93993@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:30:28 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:30:28 #3 type] 
+Type com.sergiosantiago.conectados.models.Product is not enhanced.
+
+[2024-03-13 21:30:29 #4 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 93993@MacBook-Pro-de-Sergio-2.local
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-13 21:30:41 #1 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is opened by 94140@MacBook-Pro-de-Sergio-2.local
+
+[2024-03-13 21:30:41 #2 store] 
+Configuration path: ?
+
+[2024-03-13 21:39:34 #3 store] 
+Database '/Users/sergiosantiago/developments/eclipse-workspace/conectados/conectados.odb' is closed by 94140@MacBook-Pro-de-Sergio-2.local
+

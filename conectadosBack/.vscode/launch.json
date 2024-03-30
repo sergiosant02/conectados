@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ConectadosApplication<conectados>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sergiosantiago.conectados.ConectadosApplication",
+            "projectName": "conectados",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
