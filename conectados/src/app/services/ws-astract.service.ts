@@ -10,18 +10,30 @@ export class WsAbstractService {
   protected makeGetRequest(path: string, paramsRequest?: any): Promise<any> {
     paramsRequest = !paramsRequest ? {} : paramsRequest;
     return new Promise((resolve, reject) => {
-      this.http.get(path, { params: paramsRequest }).subscribe(
-        (data) => {
-          resolve(data);
-        },
-        (err) => {
-          if (err == 200) {
-            reject(null);
-          } else {
-            reject(err);
+      this.http
+        .get(path, {
+          params: paramsRequest,
+          headers: {
+            Accept: 'application/json',
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Headers': 'Content-Type',
+            'Access-Control-Allow-Methods': 'GET,POST,OPTIONS,DELETE,PUT',
+            Authorization: `Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzZXJnaW9zYW50aWFnbzA0MDNAZ21haWwuY29tIiwiZXhwIjoxNzEzMDMzMTAwLCJpYXQiOjE3MTIxNjkxMDB9.s4HxUUffxia3rR5aJ8rzafjVWh6l_-daGVMEITs8MlUKnxIwbS_0x9OGHHA1Fmz-AicgycN-nIlIYPMT_SxMNA`,
+          },
+        })
+        .subscribe(
+          (data) => {
+            resolve(data);
+          },
+          (err) => {
+            if (err == 200) {
+              reject(null);
+            } else {
+              reject(err);
+            }
           }
-        }
-      );
+        );
     });
   }
 

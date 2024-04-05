@@ -2,6 +2,7 @@ export const constants = {
   APP_NAME: 'Conectados',
   TOKEN: 'token',
   PROVISIONAL_TOKEN: 'provisionalToken',
+  SELECTED_ROOM_ID: 'selectedRoomId',
 
   tag: 'Siempre conectado con los mios',
   advertisement:

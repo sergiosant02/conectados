@@ -1,12 +1,10 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { FormGroup } from '@angular/forms';
-import { Router } from '@angular/router';
-import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
-import { Token, User } from '../models/authentication';
+import { constants } from '../constants.ts';
+import { RoomDTO, UserDTO } from '../dtos/typesDtos';
+import { JwtRequest, ResponseEntity } from '../models/responses';
 import { PersistenceService } from './persistence.service';
 import { RestService } from './rest.service';
-import { constants } from '../constants.ts';
 
 @Injectable({
   providedIn: 'root',
@@ -14,26 +12,14 @@ import { constants } from '../constants.ts';
 export class DataManagementService {
   constructor(
     private rest: RestService,
-    private router: Router,
     private persistenceService: PersistenceService
   ) {}
-  public userLogged: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(
-    false
-  );
 
-  public email: BehaviorSubject<string> = new BehaviorSubject<string>('');
-
-  public role: BehaviorSubject<string> = new BehaviorSubject<string>('');
-
-  public userId: BehaviorSubject<string> = new BehaviorSubject<string>('');
-
-  formCorreo!: FormGroup;
-
-  async postLogin(user: User): Promise<Token> {
+  async login(user: JwtRequest): Promise<ResponseEntity<UserDTO>> {
     return this.rest
-      .postLogin(user)
+      .login(user)
       .then(async (data) => {
-        this.persistenceService.setToken(data);
+        this.persistenceService.setToken(data.jwttoken);
         return data;
       })
       .catch((err: HttpErrorResponse) => {
@@ -41,30 +27,12 @@ export class DataManagementService {
       });
   }
 
-  async postVerifyEmail(code: string): Promise<Token> {
+  async register(user: UserDTO): Promise<ResponseEntity<UserDTO>> {
     return this.rest
-      .postVerifyEmail(
-        code,
-        this.persistenceService.getValue(constants.PROVISIONAL_TOKEN)
-      )
-      .then(async (data: Token) => {
-        this.persistenceService.setToken(data);
-        this.persistenceService.removeValue(constants.PROVISIONAL_TOKEN);
-        return data;
-      })
-      .catch((err: HttpErrorResponse) => {
-        throw err;
-      });
-  }
-
-  async postRegister(user: User): Promise<Token> {
-    return this.rest
-      .postRegister(user)
+      .register(user)
       .then(async (data) => {
-        this.persistenceService.setValue(
-          constants.PROVISIONAL_TOKEN,
-          data.token
-        );
+        console.log(data);
+        this.persistenceService.setValue(constants.TOKEN, data.jwttoken);
         return data;
       })
       .catch((err: HttpErrorResponse) => {
@@ -72,27 +40,50 @@ export class DataManagementService {
       });
   }
 
-  async postDeleteAccount(): Promise<void> {
+  async logout(): Promise<void> {
+    this.persistenceService.removeValue(constants.TOKEN);
+  }
+
+  async getRoomsMember(): Promise<RoomDTO[]> {
     return this.rest
-      .postDeleteAccount(
-        this.persistenceService.getValue(constants.PROVISIONAL_TOKEN)
-      )
-      .then((_) => {
-        this.persistenceService.removeValue(constants.TOKEN);
-        this.persistenceService.removeValue(constants.PROVISIONAL_TOKEN);
-      })
+      .roomsMember()
+      .then((data) => data)
       .catch((err: HttpErrorResponse) => {
         throw err;
       });
   }
 
-  async postLogout(): Promise<void> {
+  async getRoomsOwner(): Promise<RoomDTO[]> {
     return this.rest
-      .logout()
-      .then((_) => {
-        this.persistenceService.removeValue(constants.TOKEN);
-        this.persistenceService.removeValue(constants.PROVISIONAL_TOKEN);
-      })
+      .roomsOwner()
+      .then((data) => data)
+      .catch((err: HttpErrorResponse) => {
+        throw err;
+      });
+  }
+
+  async getRoomsGuest(): Promise<RoomDTO[]> {
+    return this.rest
+      .roomsGuest()
+      .then((data) => data)
+      .catch((err: HttpErrorResponse) => {
+        throw err;
+      });
+  }
+
+  async createRoom(room: RoomDTO): Promise<ResponseEntity<RoomDTO>> {
+    return this.rest
+      .createRoom(room)
+      .then((data) => data)
+      .catch((err: HttpErrorResponse) => {
+        throw err;
+      });
+  }
+
+  async joinToRoom(code: string): Promise<ResponseEntity<RoomDTO>> {
+    return this.rest
+      .joinToRoom(code)
+      .then((data) => data)
       .catch((err: HttpErrorResponse) => {
         throw err;
       });

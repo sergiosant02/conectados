@@ -61,7 +61,7 @@ public class UserService extends BaseServiceImpl<User, Long, UserRepository> imp
 	public UserDetails loginUser(JwtRequest authenticationRequest) {
 		UserDetails res = null;
 		try {
-			res = loadUserByUsername(authenticationRequest.getUsername());
+			res = loadUserByUsername(authenticationRequest.getEmail());
 		} catch (Exception e) {
 			res = null;
 		}

@@ -46,12 +46,12 @@ public class AuthController {
         return userDetailsService.registerUser(registrationRequest);
     }
 
-    @PostMapping(value = "/login")
+    @PostMapping(value = "/login", consumes = { "application/json" })
     public ResponseEntity<JwtResponse> login(@RequestBody JwtRequest authenticationRequest) {
         ResponseEntity<JwtResponse> res = null;
         try {
             final UserDetails userDetails = userDetailsService.loginUser(authenticationRequest);
-            authenticate(authenticationRequest.getUsername(),
+            authenticate(authenticationRequest.getEmail(),
                     authenticationRequest.getPassword());
             User user = userDetailsService.findByEmail(userDetails.getUsername());
             final String token = jwtTokenUtil.generateToken(userDetails);

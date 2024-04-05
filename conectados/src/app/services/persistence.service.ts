@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { constants } from '../constants.ts';
-import { Token } from '../models/authentication';
 
 @Injectable({
   providedIn: 'root',
@@ -15,6 +14,11 @@ export class PersistenceService {
     } catch (error) {
       console.error(error);
     }
+    return localValue;
+  }
+
+  public getRawValue(key: string): any {
+    let localValue: any = localStorage.getItem(key);
     return localValue;
   }
 
@@ -40,16 +44,16 @@ export class PersistenceService {
     localStorage.clear();
   }
 
-  public getToken(): Token | null {
-    let token: Token | null = null;
-    let value: any = this.getValue(constants.TOKEN);
+  public getToken(): string | null {
+    let token: string | null = null;
+    let value: string = this.getRawValue(constants.TOKEN);
     if (value) {
       token = value;
     }
     return token;
   }
 
-  public setToken(token: Token): void {
+  public setToken(token: string): void {
     this.setValue(constants.TOKEN, token);
   }
 

@@ -8,17 +8,21 @@ import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.FetchType;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.validation.constraints.Email;
+import javax.validation.constraints.NotNull;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import com.sergiosantiago.conectados.models.base.BaseNamedEntity;
+import com.sergiosantiago.conectados.models.enums.Gender;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -72,6 +76,10 @@ public class User extends BaseNamedEntity implements UserDetails {
 
 	@OneToMany(mappedBy = "registerBy", cascade = CascadeType.ALL, fetch = FetchType.LAZY, targetEntity = ProductCategory.class)
 	private Set<ProductCategory> productCategories;
+
+	@Enumerated(EnumType.STRING)
+	@NotNull
+	private Gender gender;
 
 	public User() {
 		super();

@@ -4,6 +4,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import com.sergiosantiago.conectados.models.User;
+import com.sergiosantiago.conectados.models.enums.Gender;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -29,6 +30,7 @@ public class UserDTO {
     private Set<Long> noteIds;
     private Set<Long> productIds;
     private Set<Long> productCategoryIds;
+    private Gender gender;
 
     public static UserDTO from(User user) {
         return new UserDTO(user.getId(), user.getName(), user.getLastName(), user.getPicture(), user.getEmail(),
@@ -38,6 +40,6 @@ public class UserDTO {
                 user.getRoomOwner().stream().map(e -> e.getId()).collect(Collectors.toSet()),
                 user.getNotes().stream().map(e -> e.getId()).collect(Collectors.toSet()),
                 user.getProducts().stream().map(e -> e.getId()).collect(Collectors.toSet()),
-                user.getProductCategories().stream().map(e -> e.getId()).collect(Collectors.toSet()));
+                user.getProductCategories().stream().map(e -> e.getId()).collect(Collectors.toSet()), user.getGender());
     }
 }

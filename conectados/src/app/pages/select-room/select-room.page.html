@@ -1,0 +1,41 @@
+<ion-header >
+  <ion-toolbar>
+    <ion-title class="appbar">Selección de sala</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+
+  @for (room of rooms; track $index) {
+    <div class="rooms-card">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>{{room.name}}</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+          {{room.description}}
+        </ion-card-content>
+
+        <ion-button fill="clear" (click)="copyToClipboard(0)"><ion-label>{{room.code}}</ion-label> <ion-icon name="copy-outline"></ion-icon></ion-button>
+
+      </ion-card>
+    </div>
+  }
+
+  @if(rooms.length === 0) {
+    <div class="no-rooms">
+      <ion-icon name="sad-outline"></ion-icon>
+      <p>No hay salas disponibles, pero siempre puedes crear una</p>
+
+    </div>
+  }
+
+  <ion-fab slot="fixed" vertical="bottom" horizontal="center">
+    <ion-fab-button (click)="createRoom()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

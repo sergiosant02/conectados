@@ -9,6 +9,7 @@ import javax.persistence.FetchType;
 import javax.persistence.ManyToOne;
 import javax.validation.constraints.DecimalMin;
 
+import com.sergiosantiago.conectados.models.base.BaseEntity;
 import com.sergiosantiago.conectados.models.base.BaseNamedEntity;
 
 import lombok.AllArgsConstructor;
@@ -24,7 +25,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString(callSuper = true)
 @Entity
-public class ShoppingItem extends BaseNamedEntity {
+public class ShoppingItem extends BaseEntity {
 
 	private static final long serialVersionUID = 4791135555935927713L;
 

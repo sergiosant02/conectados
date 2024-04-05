@@ -17,13 +17,15 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import com.sergiosantiago.conectados.repository.UserRepository;
 import com.sergiosantiago.conectados.services.UserService;
 
 @Configuration
 // @EnableMethodSecurity
-public class WebConfig {
+public class WebConfig implements WebMvcConfigurer {
 
     private UserRepository userRepository;
     private JwtUtils jwtTokenUtil;
@@ -88,13 +90,23 @@ public class WebConfig {
         return new UserService(userRepository, jwtTokenUtil, encoder(), customMapper());
     }
 
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**")
+                .allowedOrigins("http://localhost:8100")
+                .allowedMethods("GET", "POST", "PUT", "DELETE")
+                .allowedHeaders("*")
+                .allowCredentials(true);
+    }
+
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
-        httpSecurity.csrf(csrf -> csrf.disable()).cors(cors -> cors.disable())
+        httpSecurity.csrf(csrf -> csrf.disable()).cors(cors -> cors.configure(httpSecurity))
                 .authorizeHttpRequests(requests -> requests
 
                         .antMatchers("/authenticate/all").authenticated()
-                        .antMatchers("/authenticate/**").permitAll()
+                        .antMatchers("/authenticate/login").permitAll()
+                        .antMatchers("/authenticate/register").permitAll()
                         .anyRequest().authenticated())
                 .addFilterBefore(jwtAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class)
                 .exceptionHandling(handling -> handling.authenticationEntryPoint(jwtAuthenticationEntryPoint));

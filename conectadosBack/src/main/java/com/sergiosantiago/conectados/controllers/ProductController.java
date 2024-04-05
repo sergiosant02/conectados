@@ -2,7 +2,6 @@ package com.sergiosantiago.conectados.controllers;
 
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,11 +24,6 @@ public class ProductController {
     public ProductController(ProductService productService, UserService userService) {
         this.productService = productService;
         this.userService = userService;
-    }
-
-    @GetMapping("/list")
-    public ProductService getProductService() {
-        return productService;
     }
 
     @PostMapping("/create")
