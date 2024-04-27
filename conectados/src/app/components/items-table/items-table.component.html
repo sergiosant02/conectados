@@ -19,7 +19,7 @@
     }
   </ion-grid>
   <ion-grid>
-    <ion-row>
+    <ion-row *ngIf="shoppingList && shoppingList.items.length > 0">
       <ion-col><strong>Total</strong></ion-col>
       <ion-col class="right">{{totalCost.toFixed(2)}} €</ion-col>
     </ion-row>

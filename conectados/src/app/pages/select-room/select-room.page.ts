@@ -81,4 +81,9 @@ export class SelectRoomPage implements OnInit {
       queryParams: { id: this.rooms[index].id },
     });
   }
+
+  public logout() {
+    this.dataManagementService.logout();
+    this.navCtrl.navigateRoot('/');
+  }
 }

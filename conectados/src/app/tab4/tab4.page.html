@@ -19,8 +19,8 @@
     <ion-item>
       <ion-avatar >{{person.name.slice(0,2)}}</ion-avatar>
       <ion-label>{{person.name}}</ion-label>
-      <ion-button fill="clear" *ngIf="user.id===person.id">Abandonar sala</ion-button>
-      <ion-button fill="clear" *ngIf="user.id!==person.id && isOwner">Expulsar</ion-button>
+      <ion-button fill="clear" *ngIf="user.id===person.id" (click)="leaveRoom()">Abandonar sala</ion-button>
+      <!---- <ion-button fill="clear" *ngIf="user.id!==person.id && isOwner">Expulsar</ion-button> --->
     </ion-item>
   }
 </ion-content>

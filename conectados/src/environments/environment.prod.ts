@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  restUrl: 'http://localhost:8080',
+  restUrl: 'https://conectados.onrender.com',
 
   authEndpoint: '/authenticate',
   roomsEndpoint: '/rooms',

@@ -1,6 +1,9 @@
 <ion-header >
   <ion-toolbar>
     <ion-title class="appbar">Selección de sala</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="logout()"><ion-icon name="log-out-outline"></ion-icon></ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -34,11 +37,11 @@
 
   <ion-buttons class="join-button">
 
-    <ion-button fill="solid" shape="round" (click)="createRoom()">
+    <ion-button color="primary" fill="solid" shape="round" (click)="createRoom()">
       <p style="padding: 0px 20px;">Crear sala</p>
     </ion-button>
 
-    <ion-button fill="solid" shape="round" (click)="seacrhRoom()">
+    <ion-button color="primary" fill="solid" shape="round" (click)="seacrhRoom()">
       <p style="padding: 0px 20px;">Buscar sala</p>
     </ion-button>
   </ion-buttons>
