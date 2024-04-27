@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Creación de salas
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeModal()">
+       <p>Cerrar</p>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="body">
+    <form [formGroup]="noteForm" (submit)="submit()">
+
+      <div class="input-container">
+        <ion-input fill="outline" placeholder="Lavar a Dogy" label-placement="floating" label="Título" formControlName="title" type="text" [autocapitalize]="true" ></ion-input>
+        <div class="error-conatiner">
+          <app-error-message [field]="noteForm.get('title')!" [message]="'Debe introducir un título'" [error]="'required'"></app-error-message>
+        </div>
+      </div>
+
+      <div class="input-container">
+        <ion-textarea autoGrow="true" class="description-area" fill="outline" placeholder="Detalles de la nota" formControlName="body" autocapitalize="true" labelPlacement="floating" label="Detalles"></ion-textarea>
+        <div class="error-conatiner">
+          <app-error-message [field]="noteForm.get('body')!" [message]="'Debe introducir una descripcion'" [error]="'required'"></app-error-message>
+          <app-error-message [field]="noteForm.get('body')!" [message]="'Longitud mínima 3 caracteres'" [error]="'minlength'"></app-error-message>
+        </div>
+      </div>
+
+
+
+      <ion-button class="floating" expand="full" type="submit" [disabled]="!noteForm.valid" shape="round" (click)="submit">Registrarse</ion-button>
+    </form>
+  </div>
+</ion-content>

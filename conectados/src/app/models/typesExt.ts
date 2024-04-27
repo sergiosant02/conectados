@@ -1,4 +1,4 @@
-import { ProdcutCategory, Product } from "./types";
+import { ProdcutCategory, Product } from './types';
 
 export interface ProductExt {
   products: Product[];

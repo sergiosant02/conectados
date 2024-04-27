@@ -45,9 +45,9 @@ export class LoginPage implements OnInit {
   async logginSubmit() {
     const loading = await this.loadingCtrl.create({});
     const toast = await this.toastController.create({
-      duration: 2000, // Duración del toast en milisegundos
-      position: 'bottom', // Posición del toast (top, middle, bottom)
-      color: 'dark', // Color del toast
+      duration: 2000,
+      position: 'bottom',
+      color: 'dark',
       buttons: [
         {
           text: 'Cerrar',

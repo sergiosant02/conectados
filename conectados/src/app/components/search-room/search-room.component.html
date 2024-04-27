@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Buscador de sala
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeModal()">
+       <p>Cerrar</p>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="body">
+    <form [formGroup]="searchRoomForm" (submit)="submit()">
+
+    <div class="main">
+      <div class="input-container">
+        <ion-input fill="outline" placeholder="ABCDEFG" label-placement="floating" label="Código" formControlName="code" type="text" [autocapitalize]="true" ></ion-input>
+        <div class="error-conatiner">
+          <app-error-message [field]="searchRoomForm.get('code')!" [message]="'Debe introducir un código'" [error]="'required'"></app-error-message>
+        </div>
+      </div>
+    </div>
+
+      <ion-button class="floating" expand="full" type="submit" [disabled]="!searchRoomForm.valid" shape="round" (click)="submit">Buscar</ion-button>
+    </form>
+  </div>
+</ion-content>

@@ -1,4 +1,10 @@
-import { ProductCategoryDTO, ProductDTO, RoomDTO, ShoppingItemDTO, ShoppingListDTO } from "./typesDtos";
+import {
+  ProductCategoryDTO,
+  ProductDTO,
+  RoomDTO,
+  ShoppingItemDTO,
+  ShoppingListDTO,
+} from './typesDtos';
 
 export interface ProductExtDTO {
   products: ProductDTO[];
@@ -14,4 +20,12 @@ export interface RoomExtDTO {
 export interface ShoppingListExtDTO {
   shoppingListDTO: ShoppingListDTO;
   shoppingItemDTOs: ShoppingItemDTO[];
+}
+
+export interface ShoppingListDataExtDTO {
+  id: number;
+  name: string;
+  completed: boolean;
+  items: ShoppingItemDTO[];
+  roomId: number;
 }

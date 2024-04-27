@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Añadir artículo
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeModal()">
+       <p>Cerrar</p>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="body">
+    <form [formGroup]="addShoppingItemForm" (submit)="submit()">
+
+      <div class="input-container">
+        <div class="box">
+          <ion-select formControlName="productId" label="Seleccione un producto">
+            @for (product of products; track $index) {
+            <ion-select-option [value]="product.id">{{product.name}}</ion-select-option>
+          }
+          </ion-select>
+        </div>
+      </div>
+
+      <div class="input-container">
+        <ion-input fill="outline" placeholder="10" label-placement="floating" label="Cantidad" formControlName="quantity" type="number" ></ion-input>
+        <div class="error-conatiner">
+          <app-error-message [field]="addShoppingItemForm.get('quantity')!" [message]="'Debe introducir una cantidad'" [error]="'required'"></app-error-message>
+          <app-error-message [field]="addShoppingItemForm.get('quantity')!" [message]="'Cantidad mínima 0'" [error]="'min'"></app-error-message>
+        </div>
+      </div>
+
+      <div class="input-container">
+        <ion-input fill="outline" placeholder="10" label-placement="floating" label="Precio individual" formControlName="value" type="number" ></ion-input>
+        <div class="error-conatiner">
+          <app-error-message [field]="addShoppingItemForm.get('value')!" [message]="'Debe introducir un precio'" [error]="'required'"></app-error-message>
+          <app-error-message [field]="addShoppingItemForm.get('value')!" [message]="'Cantidad mínima 0'" [error]="'min'"></app-error-message>
+        </div>
+      </div>
+
+
+
+      <ion-button class="floating" expand="full" type="submit" [disabled]="!addShoppingItemForm.valid" shape="round" (click)="submit">Añadir artículo</ion-button>
+    </form>
+  </div>
+</ion-content>

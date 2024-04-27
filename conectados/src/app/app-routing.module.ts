@@ -34,6 +34,10 @@ const routes: Routes = [
     path: 'select-room',
     loadChildren: () => import('./pages/select-room/select-room.module').then( m => m.SelectRoomPageModule)
   },
+  {
+    path: 'tab4',
+    loadChildren: () => import('./tab4/tab4.module').then( m => m.Tab4PageModule)
+  },
 ];
 @NgModule({
   imports: [

@@ -1,16 +1,45 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+<ion-header >
+  <ion-toolbar style="--background: transparent; --border-color: transparent;">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/select-room"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="appbar">{{constants.APP_NAME}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+      <ion-title size="large">Tickets</ion-title>
+      <ion-buttons slot="end" style="padding-right: 10px;">
+        <ion-button (click)="changeEditionMode()" *ngIf="!onEditionMode">Editar</ion-button>
+        <ion-button (click)="changeEditionMode()" *ngIf="onEditionMode">Aceptar</ion-button>
+      </ion-buttons>
     </ion-toolbar>
   </ion-header>
+
+  <div class="body">
+    <ion-accordion-group class="accordion-group">
+      @for (ticket of shoppingLists; track $index) {
+        <ion-accordion class="ticket" [value]="$index">
+          <ion-item slot="header" color="light" class="header">
+            <ion-icon name="receipt-outline"></ion-icon>
+            <ion-label>{{ticket.name}}</ion-label>
+            <ion-buttons>
+              <ion-button fill="clear" *ngIf="onEditionMode" (click)="deleteTicket($event, $index)"><ion-icon name="trash-outline" color="danger"></ion-icon></ion-button>
+            </ion-buttons>
+          </ion-item>
+          <div class="ion-padding" slot="content"><app-items-table [shoppingList]="shoppingLists[$index]" [onEditionMode]="onEditionMode" [products]="products"></app-items-table></div>
+        </ion-accordion>
+      }
+
+    </ion-accordion-group>
+  </div>
+
+  <ion-fab slot="fixed" vertical="bottom" horizontal="center">
+    <ion-fab-button (click)="createTicket()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 
 </ion-content>

@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Creación de ticket
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeModal()">
+       <p>Cerrar</p>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="body">
+    <form [formGroup]="ticketForm" (submit)="submit()">
+      <ion-input type="hidden" formControlName="roomId" value></ion-input>
+    <div class="main">
+      <div class="input-container">
+        <ion-input fill="outline" placeholder="Compras casa" label-placement="floating" label="Nombre" formControlName="name" type="text" [autocapitalize]="true" ></ion-input>
+        <div class="error-conatiner">
+          <app-error-message [field]="ticketForm.get('name')!" [message]="'Debe introducir un nombre'" [error]="'required'"></app-error-message>
+        </div>
+      </div>
+    </div>
+
+      <ion-button class="floating" expand="full" type="submit" [disabled]="!ticketForm.valid" shape="round" (click)="submit">Crear</ion-button>
+    </form>
+  </div>
+</ion-content>

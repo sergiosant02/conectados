@@ -1,0 +1,27 @@
+.delete-col {
+  background-color: transparent;
+
+  .button {
+    background-color: transparent;
+    border: none;
+  }
+}
+
+ion-grid {
+  padding: 0;
+  margin: 0;
+}
+
+ion-col {
+  height:50px;
+  text-align: start;
+  justify-content: center;
+  align-content: center;
+}
+
+.right {
+  height:50px;
+  text-align: end;
+  justify-content: center;
+  align-content: center;
+}

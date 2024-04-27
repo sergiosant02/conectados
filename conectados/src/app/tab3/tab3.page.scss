@@ -1,0 +1,15 @@
+.ticket {
+  width: 100%;
+  padding: 10px;
+  .header {
+    font-weight: bold;
+
+    ion-label {
+      padding-left: 15px
+    };
+  }
+}
+
+.accordion-group {
+  width: 100%;
+}

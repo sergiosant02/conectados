@@ -1,0 +1,29 @@
+<div>
+  <ion-grid>
+    @for (item of shoppingList?.items; track $index) {
+      @if($index % 2 === 0) {
+        <ion-row style="background-color: rgb(216, 214, 214);">
+          <ion-col size="7">{{item.quantity}} x <strong>{{item.name}}</strong></ion-col>
+          <ion-col  *ngIf="!onEditionMode"></ion-col>
+          <ion-col class="right">{{item.value}} €</ion-col>
+          <ion-col *ngIf="onEditionMode" class="delete-col"><ion-button shape="round" fill="clear" size="small" (click)="deleteArticle($index)"><ion-icon name="close-circle-outline"></ion-icon></ion-button></ion-col>
+        </ion-row>
+      } @else {
+        <ion-row>
+          <ion-col size="7">{{item.quantity}} x <strong>{{item.name}}</strong></ion-col>
+          <ion-col  *ngIf="!onEditionMode"></ion-col>
+          <ion-col class="right">{{item.value}} €</ion-col>
+          <ion-col *ngIf="onEditionMode" class="delete-col"><ion-button shape="round" fill="clear" size="small" (click)="deleteArticle($index)"><ion-icon name="close-circle-outline"></ion-icon></ion-button></ion-col>
+        </ion-row>
+      }
+    }
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col><strong>Total</strong></ion-col>
+      <ion-col class="right">{{totalCost.toFixed(2)}} €</ion-col>
+    </ion-row>
+    <ion-row><ion-button fill="clear" style="width: 100%;" (click)="addArticle()">Añadir artículo</ion-button></ion-row>
+
+  </ion-grid>
+</div>

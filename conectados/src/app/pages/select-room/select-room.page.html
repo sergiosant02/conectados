@@ -9,7 +9,7 @@
 
   @for (room of rooms; track $index) {
     <div class="rooms-card">
-      <ion-card>
+      <ion-card button="true" type="button" (click)="onRoomSelected($index)">
         <ion-card-header>
           <ion-card-title>{{room.name}}</ion-card-title>
         </ion-card-header>
@@ -18,8 +18,8 @@
           {{room.description}}
         </ion-card-content>
 
-        <ion-button fill="clear" (click)="copyToClipboard(0)"><ion-label>{{room.code}}</ion-label> <ion-icon name="copy-outline"></ion-icon></ion-button>
 
+        <ion-button fill="clear" (click)="copyToClipboard($event, $index)"><ion-label>{{room.code}}</ion-label> <ion-icon name="copy-outline"></ion-icon></ion-button>
       </ion-card>
     </div>
   }
@@ -32,10 +32,15 @@
     </div>
   }
 
-  <ion-fab slot="fixed" vertical="bottom" horizontal="center">
-    <ion-fab-button (click)="createRoom()">
-      <ion-icon name="add"></ion-icon>
-    </ion-fab-button>
-  </ion-fab>
+  <ion-buttons class="join-button">
+
+    <ion-button fill="solid" shape="round" (click)="createRoom()">
+      <p style="padding: 0px 20px;">Crear sala</p>
+    </ion-button>
+
+    <ion-button fill="solid" shape="round" (click)="seacrhRoom()">
+      <p style="padding: 0px 20px;">Buscar sala</p>
+    </ion-button>
+  </ion-buttons>
 
 </ion-content>

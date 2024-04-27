@@ -27,7 +27,7 @@ export class SelectedRoomGuard implements CanActivate {
     | boolean
     | UrlTree {
     const isAnyRoomSelected = this.persistenceService.checkValue(
-      constants.SELECTED_ROOM_ID
+      constants.SELECTED_ROOM
     );
     if (!isAnyRoomSelected) {
       this.navCtr.navigateRoot('/select-room');

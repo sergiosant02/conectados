@@ -24,24 +24,24 @@ export interface ShoppingListDTO {
 
 export interface ShoppingItemDTO {
   id: number;
-  name: string;
   quantity: number;
   shoppingListId: number;
   productId: number;
   value: number;
+  name?: string;
 }
 
 export interface RoomDTO {
   id: number;
-  name: string;
-  code: string;
-  description: string;
-  ownerId: number;
-  belongToUserIds: number[];
-  productIds: number[];
-  noteIds: number[];
-  shoppingListIds: number[];
-  productCategoryIds: number[];
+  name?: string;
+  code?: string;
+  description?: string;
+  ownerId?: number;
+  belongToUserIds?: number[];
+  productIds?: number[];
+  noteIds?: number[];
+  shoppingListIds?: number[];
+  productCategoryIds?: number[];
 }
 
 export interface ProductDTO {

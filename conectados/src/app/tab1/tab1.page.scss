@@ -1,0 +1,63 @@
+ion-row {
+  width: 100%;
+
+  height: 50px;
+}
+
+.catgeories-container {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  overflow-x: auto !important;
+  align-items: center;
+  height: 50px !important;
+  min-height: 40px;
+  width: 100%;
+
+  ion-chip {
+    flex-shrink: 0; /* Evita que los chips se reduzcan en tamaño */
+    margin-right: 8px;
+  }
+}
+
+.custom-chip {
+  margin-right: 8px;
+  min-width: 100px;
+  width: 100px;
+  max-width: 100px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-overflow: ellipsis;
+}
+
+
+.products-container {
+  align-items: start;
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+
+    h4 {
+      font-weight: bold;
+      padding-left: 10px;
+    }
+
+    ion-list {
+      width: 100%;
+    }
+
+    .product-options {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 40px;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+}
