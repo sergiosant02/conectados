@@ -11,6 +11,6 @@ public interface NoteRepository extends JpaRepository<Note, Long> {
 
     List<Note> findAll();
 
-    @Query("SELECT note FROM Note note WHERE note.room.id = ?1")
+    @Query("SELECT note FROM Note note WHERE note.writeIn.id = ?1")
     List<Note> findByRoomId(Long roomId);
 }

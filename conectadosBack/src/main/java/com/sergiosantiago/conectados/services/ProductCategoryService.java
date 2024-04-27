@@ -1,9 +1,9 @@
 package com.sergiosantiago.conectados.services;
 
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
@@ -25,7 +25,11 @@ public class ProductCategoryService
     }
 
     public Set<ProductCategory> findAllByIds(Collection<Long> ids) {
-        return ids.parallelStream().map(this::findById).collect(Collectors.toSet());
+        Set<ProductCategory> categories = new HashSet<>();
+        if (ids != null && !ids.isEmpty()) {
+            categories.addAll(repository.findAllById(ids));
+        }
+        return categories;
     }
 
 }

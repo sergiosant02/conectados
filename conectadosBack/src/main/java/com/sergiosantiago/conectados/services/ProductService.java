@@ -55,15 +55,20 @@ public class ProductService extends BaseServiceImpl<Product, Long, ProductReposi
 			Product product = modelMapper.map(productDTO, Product.class);
 			Room room = roomService.findById(productDTO.getRoomId());
 			Set<ProductCategory> categories = productCategoryService.findAllByIds(productDTO.getCategoryIds());
+
+			categories.parallelStream().forEach(c -> {
+				c.getProducts().add(product);
+			});
 			product.getCategories().addAll(categories);
-			categories.parallelStream().forEach(c -> c.getProducts().add(product));
 			product.setRoom(room);
 			product.setRegisterBy(user);
+			room.getProducts().add(product);
 			user.getProducts().add(product);
 			this.save(product);
 			res.setCode(200L);
 			res.setMessage(Messages.sucefull);
-			res.setData(modelMapper.map(product, ProductDTO.class));
+			productDTO = product.getDTO();
+			res.setData(productDTO);
 		} catch (Exception e) {
 			logger.warning(e.getMessage());
 			res.setMessage(Errors.notWork);

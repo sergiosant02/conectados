@@ -9,8 +9,8 @@ import javax.persistence.FetchType;
 import javax.persistence.ManyToOne;
 import javax.validation.constraints.DecimalMin;
 
+import com.sergiosantiago.conectados.dtos.ShoppingItemDTO;
 import com.sergiosantiago.conectados.models.base.BaseEntity;
-import com.sergiosantiago.conectados.models.base.BaseNamedEntity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -43,11 +43,15 @@ public class ShoppingItem extends BaseEntity {
 	@DecimalMin("0.01")
 	private Double value;
 
+	public ShoppingItemDTO getDTO() {
+		return new ShoppingItemDTO(id, quantity, shoppingList.getId(), product.getId(), value, product.getName());
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = super.hashCode();
-		result = prime * result + Objects.hash(product, quantity, shoppingList, value);
+		result = prime * result + Objects.hash(product, quantity, value);
 		return result;
 	}
 
@@ -61,7 +65,7 @@ public class ShoppingItem extends BaseEntity {
 			return false;
 		ShoppingItem other = (ShoppingItem) obj;
 		return Objects.equals(product, other.product) && Objects.equals(quantity, other.quantity)
-				&& Objects.equals(shoppingList, other.shoppingList) && Objects.equals(value, other.value);
+				&& Objects.equals(value, other.value);
 	}
 
 }

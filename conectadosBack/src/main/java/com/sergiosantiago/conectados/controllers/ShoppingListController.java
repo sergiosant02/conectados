@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.sergiosantiago.conectados.Utils.Utils;
 import com.sergiosantiago.conectados.dtos.ShoppingItemDTO;
 import com.sergiosantiago.conectados.dtos.ShoppingListDTO;
+import com.sergiosantiago.conectados.dtos.ext.ShoppingListDataExtDTO;
 import com.sergiosantiago.conectados.dtos.ext.ShoppingListExtDTO;
 import com.sergiosantiago.conectados.models.User;
 import com.sergiosantiago.conectados.models.auth.HttpResponse;
@@ -33,7 +34,7 @@ public class ShoppingListController {
     }
 
     @GetMapping("/list")
-    public HttpResponse<Set<ShoppingListDTO>> getAllShoppingListsOfRoom(
+    public HttpResponse<Set<ShoppingListDataExtDTO>> getAllShoppingListsOfRoom(
             @AuthenticationPrincipal UserDetails userDetails,
             @RequestParam(value = "id") Long id) {
         User user = Utils.getUserFromRequest(userDetails, userService);
@@ -47,37 +48,37 @@ public class ShoppingListController {
         return this.shoppingListService.createShoppingList(user, shoppingListDTO);
     }
 
-    @GetMapping("/getInfoAbout")
+    @PostMapping("/getInfoAbout")
     public HttpResponse<ShoppingListExtDTO> getAllInfoAboutShoppingList(
-            @AuthenticationPrincipal UserDetails userDetails, ShoppingListDTO shoppingListDTO) {
+            @AuthenticationPrincipal UserDetails userDetails, @RequestBody ShoppingListDTO shoppingListDTO) {
         User user = Utils.getUserFromRequest(userDetails, userService);
         return this.shoppingListService.getAllInfoAboutShoppingList(user, shoppingListDTO);
     }
 
-    @PostMapping("/deleteShoppingList")
-    public HttpResponse<ShoppingListDTO> deleteShoppingList(@AuthenticationPrincipal UserDetails userDetails,
-            @RequestBody ShoppingListDTO shoppingListDTO) {
+    @PostMapping("/delete")
+    public HttpResponse<ShoppingListDataExtDTO> deleteShoppingList(@AuthenticationPrincipal UserDetails userDetails,
+            @RequestBody ShoppingListDataExtDTO shoppingListDTO) {
         User user = Utils.getUserFromRequest(userDetails, userService);
         return this.shoppingListService.deleteShoppingList(user, shoppingListDTO);
     }
 
     @PostMapping("/changeStatus")
-    public HttpResponse<ShoppingListDTO> changeCompleteStatus(@AuthenticationPrincipal UserDetails userDetails,
-            @RequestBody ShoppingListDTO shoppingListDTO) {
+    public HttpResponse<ShoppingListDataExtDTO> changeCompleteStatus(@AuthenticationPrincipal UserDetails userDetails,
+            @RequestBody ShoppingListDataExtDTO shoppingListDTO) {
         User user = Utils.getUserFromRequest(userDetails, userService);
         return this.shoppingListService.changeCompleteStatus(user, shoppingListDTO);
     }
 
     @PostMapping("/items/create")
     public HttpResponse<ShoppingItemDTO> createShoppingItem(@AuthenticationPrincipal UserDetails userDetails,
-            ShoppingItemDTO shoppingItemDTO) {
+            @RequestBody ShoppingItemDTO shoppingItemDTO) {
         User user = Utils.getUserFromRequest(userDetails, userService);
         return this.shoppingListService.createShoppingItem(user, shoppingItemDTO);
     }
 
     @PostMapping("/items/delete")
     public HttpResponse<ShoppingItemDTO> deleteShoppingItem(@AuthenticationPrincipal UserDetails userDetails,
-            ShoppingItemDTO shoppingItemDTO) {
+            @RequestBody ShoppingItemDTO shoppingItemDTO) {
         User user = Utils.getUserFromRequest(userDetails, userService);
         return this.shoppingListService.deleteShoppingItem(user, shoppingItemDTO);
     }
@@ -85,7 +86,7 @@ public class ShoppingListController {
     @PostMapping("/items/update")
     public HttpResponse<ShoppingItemDTO> updateQuantityAndPriceShoppingItem(
             @AuthenticationPrincipal UserDetails userDetails,
-            ShoppingItemDTO shoppingItemDTO) {
+            @RequestBody ShoppingItemDTO shoppingItemDTO) {
         User user = Utils.getUserFromRequest(userDetails, userService);
         return this.shoppingListService.updateQuantityAndPriceShoppingItem(user, shoppingItemDTO);
     }

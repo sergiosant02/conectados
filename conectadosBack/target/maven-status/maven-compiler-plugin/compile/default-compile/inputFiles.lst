@@ -13,12 +13,14 @@
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/services/UserService.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/ConectadosApplication.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/models/Note.java
+/Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/dtos/ext/ShoppingListDataExtDTO.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/controllers/ShoppingListController.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/models/ext/ProductExt.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/repository/ProductCategoryRepository.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/dtos/ext/RoomExtDTO.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/Utils/Messages.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/dtos/NoteDTO.java
+/Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/models/enums/Gender.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/models/User.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/config/JWTAuthorizationFilter.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/models/ext/ShoppingListExt.java
@@ -44,6 +46,7 @@
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/controllers/UserController.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/config/JwtAuthenticationEntryPoint.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/models/auth/JwtResponse.java
+/Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/dtos/ext/ShoppingItemExtDTO.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/services/ProductService.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/services/RoomService.java
 /Users/sergiosantiago/developments/CBD/conectadosBack/src/main/java/com/sergiosantiago/conectados/Utils/Constants.java

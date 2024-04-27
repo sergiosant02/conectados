@@ -56,7 +56,7 @@ public class AuthController {
             User user = userDetailsService.findByEmail(userDetails.getUsername());
             final String token = jwtTokenUtil.generateToken(userDetails);
 
-            res = ResponseEntity.ok(new JwtResponse(token, modelMapper.map(user, UserDTO.class)));
+            res = ResponseEntity.ok(new JwtResponse(token, user.getDTO()));
         } catch (Exception e) {
             res = ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new JwtResponse("Invalid credentials"));
         }

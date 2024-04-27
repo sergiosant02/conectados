@@ -3,6 +3,7 @@ package com.sergiosantiago.conectados.models;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -11,6 +12,7 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import com.sergiosantiago.conectados.dtos.ProductDTO;
 import com.sergiosantiago.conectados.models.base.BaseNamedEntity;
 
 import lombok.AllArgsConstructor;
@@ -31,7 +33,7 @@ public class Product extends BaseNamedEntity {
 	@ManyToOne(cascade = CascadeType.PERSIST, targetEntity = Room.class, fetch = FetchType.LAZY)
 	private Room room;
 
-	@ManyToMany(cascade = CascadeType.PERSIST, targetEntity = ProductCategory.class, mappedBy = "products", fetch = FetchType.LAZY)
+	@ManyToMany(cascade = CascadeType.PERSIST, mappedBy = "products", fetch = FetchType.LAZY)
 	private Set<ProductCategory> categories;
 
 	@OneToMany(cascade = CascadeType.PERSIST, targetEntity = ShoppingItem.class, mappedBy = "product", fetch = FetchType.LAZY)
@@ -59,7 +61,7 @@ public class Product extends BaseNamedEntity {
 	public int hashCode() {
 		final int prime = 31;
 		int result = super.hashCode();
-		result = prime * result + Objects.hash(categories, picture, registerBy, room, shoppingItems);
+		result = prime * result + Objects.hash(picture, room);
 		return result;
 	}
 
@@ -72,9 +74,21 @@ public class Product extends BaseNamedEntity {
 		if (getClass() != obj.getClass())
 			return false;
 		Product other = (Product) obj;
-		return Objects.equals(categories, other.categories) && Objects.equals(picture, other.picture)
-				&& Objects.equals(registerBy, other.registerBy) && Objects.equals(room, other.room)
-				&& Objects.equals(shoppingItems, other.shoppingItems);
+		return Objects.equals(picture, other.picture);
+	}
+
+	public ProductDTO getDTO() {
+		ProductDTO dto = new ProductDTO();
+		dto.setId(this.getId());
+		dto.setName(this.getName());
+		dto.setPicture(this.picture);
+		dto.setCategoryIds(this.categories.isEmpty() ? new HashSet<>()
+				: this.categories.parallelStream().map(ProductCategory::getId).collect(Collectors.toSet()));
+		dto.setRoomId(this.room.getId());
+		dto.setUserId(this.registerBy.getId());
+		dto.setShoppingItemIds(this.shoppingItems.isEmpty() ? new HashSet<>()
+				: this.shoppingItems.parallelStream().map(ShoppingItem::getId).collect(Collectors.toSet()));
+		return dto;
 	}
 
 }

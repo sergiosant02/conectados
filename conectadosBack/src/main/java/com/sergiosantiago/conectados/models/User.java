@@ -4,6 +4,7 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -21,6 +22,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import com.sergiosantiago.conectados.dtos.UserDTO;
 import com.sergiosantiago.conectados.models.base.BaseNamedEntity;
 import com.sergiosantiago.conectados.models.enums.Gender;
 
@@ -152,9 +154,31 @@ public class User extends BaseNamedEntity implements UserDetails {
 		return Objects.equals(email, other.email) && Objects.equals(enabled, other.enabled)
 				&& Objects.equals(lastName, other.lastName) && Objects.equals(notes, other.notes)
 				&& Objects.equals(password, other.password) && Objects.equals(picture, other.picture)
-				&& Objects.equals(productCategories, other.productCategories)
-				&& Objects.equals(products, other.products) && Objects.equals(role, other.role)
+				&& Objects.equals(role, other.role)
 				&& Objects.equals(roomIn, other.roomIn) && Objects.equals(roomOwner, other.roomOwner);
+	}
+
+	public UserDTO getDTO() {
+		UserDTO dto = new UserDTO();
+		dto.setId(this.getId());
+		dto.setName(this.getName());
+		dto.setLastName(this.getLastName());
+		dto.setPicture(this.getPicture());
+		dto.setEmail(this.getEmail());
+		dto.setRole(this.getRole());
+		dto.setEnabled(this.isEnabled());
+		dto.setGender(this.getGender());
+		dto.setRoomInIds(this.roomIn.isEmpty() ? new HashSet<>()
+				: this.roomIn.stream().map(Room::getId).collect(Collectors.toSet()));
+		dto.setRoomOwnerIds(this.roomOwner.isEmpty() ? new HashSet<>()
+				: this.roomOwner.stream().map(Room::getId).collect(Collectors.toSet()));
+		dto.setNoteIds(this.notes.isEmpty() ? new HashSet<>()
+				: this.notes.stream().map(Note::getId).collect(Collectors.toSet()));
+		dto.setProductIds(this.products.isEmpty() ? new HashSet<>()
+				: this.products.stream().map(Product::getId).collect(Collectors.toSet()));
+		dto.setProductCategoryIds(this.productCategories.isEmpty() ? new HashSet<>()
+				: this.productCategories.stream().map(pc -> pc.getId()).collect(Collectors.toSet()));
+		return dto;
 	}
 
 }

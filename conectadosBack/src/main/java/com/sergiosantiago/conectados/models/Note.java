@@ -8,6 +8,7 @@ import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.ManyToOne;
 
+import com.sergiosantiago.conectados.dtos.NoteDTO;
 import com.sergiosantiago.conectados.models.base.BaseEntity;
 
 import lombok.AllArgsConstructor;
@@ -63,6 +64,10 @@ public class Note extends BaseEntity {
 		Note other = (Note) obj;
 		return Objects.equals(body, other.body) && Objects.equals(title, other.title)
 				&& Objects.equals(writeIn, other.writeIn) && Objects.equals(writer, other.writer);
+	}
+
+	public NoteDTO getDTO() {
+		return new NoteDTO(this.getId(), this.title, this.body, this.writer.getId(), this.writeIn.getId());
 	}
 
 }

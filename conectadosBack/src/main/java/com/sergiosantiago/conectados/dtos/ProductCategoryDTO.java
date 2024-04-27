@@ -17,5 +17,5 @@ public class ProductCategoryDTO {
     private String name;
     private Set<Long> productIds;
     private Long userId;
-    private Long rommId;
+    private Long roomId;
 }

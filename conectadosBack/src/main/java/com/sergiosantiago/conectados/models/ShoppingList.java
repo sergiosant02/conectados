@@ -11,6 +11,8 @@ import javax.persistence.FetchType;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import com.sergiosantiago.conectados.dtos.ShoppingListDTO;
+import com.sergiosantiago.conectados.dtos.ext.ShoppingListDataExtDTO;
 import com.sergiosantiago.conectados.models.base.BaseNamedEntity;
 
 import lombok.AllArgsConstructor;
@@ -30,7 +32,7 @@ public class ShoppingList extends BaseNamedEntity {
 	@Column(nullable = false)
 	private Boolean completed = false;
 
-	@OneToMany(mappedBy = "shoppingList", cascade = CascadeType.ALL, targetEntity = ShoppingItem.class, fetch = FetchType.LAZY)
+	@OneToMany(mappedBy = "shoppingList", cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
 	private Set<ShoppingItem> items;
 
 	@ManyToOne(cascade = CascadeType.PERSIST, targetEntity = Room.class, fetch = FetchType.LAZY)
@@ -39,6 +41,30 @@ public class ShoppingList extends BaseNamedEntity {
 	public ShoppingList() {
 		super();
 		this.items = new HashSet<ShoppingItem>();
+	}
+
+	public ShoppingListDTO getDTO() {
+		ShoppingListDTO dto = new ShoppingListDTO();
+		dto.setId(this.getId());
+		dto.setName(this.getName());
+		dto.setCompleted(this.getCompleted());
+		dto.setItemIds(this.getItems().isEmpty() ? new HashSet<>()
+				: this.getItems().stream().map(ShoppingItem::getId).collect(java.util.stream.Collectors.toSet()));
+		dto.setRoomId(room.getId());
+		return dto;
+
+	}
+
+	public ShoppingListDataExtDTO getExtDataDTO() {
+		ShoppingListDataExtDTO dto = new ShoppingListDataExtDTO();
+		dto.setId(this.getId());
+		dto.setName(this.getName());
+		dto.setCompleted(this.getCompleted());
+		dto.setItems(this.getItems().isEmpty() ? new HashSet<>()
+				: this.getItems().stream().map(ShoppingItem::getDTO).collect(java.util.stream.Collectors.toSet()));
+		dto.setRoomId(room.getId());
+		return dto;
+
 	}
 
 	@Override

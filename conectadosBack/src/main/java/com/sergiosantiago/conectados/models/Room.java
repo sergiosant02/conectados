@@ -3,6 +3,7 @@ package com.sergiosantiago.conectados.models;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -12,6 +13,9 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import org.springframework.util.CollectionUtils;
+
+import com.sergiosantiago.conectados.dtos.RoomDTO;
 import com.sergiosantiago.conectados.models.base.BaseNamedEntity;
 
 import lombok.AllArgsConstructor;
@@ -85,11 +89,31 @@ public class Room extends BaseNamedEntity {
 		if (getClass() != obj.getClass())
 			return false;
 		Room other = (Room) obj;
-		return Objects.equals(belongTo, other.belongTo) && Objects.equals(code, other.code)
+		return Objects.equals(code, other.code)
 				&& Objects.equals(description, other.description) && Objects.equals(notes, other.notes)
-				&& Objects.equals(owner, other.owner)
-				&& Objects.equals(productCategories, other.productCategories)
-				&& Objects.equals(products, other.products) && Objects.equals(shoppingLists, other.shoppingLists);
+				&& Objects.equals(shoppingLists, other.shoppingLists);
+	}
+
+	public RoomDTO getDTO() {
+		RoomDTO dto = new RoomDTO();
+		dto.setId(id);
+		dto.setName(name);
+		dto.setCode(code);
+		dto.setDescription(description);
+		dto.setProductIds(CollectionUtils.isEmpty(products) ? new HashSet<>()
+				: products.parallelStream().map(Product::getId)
+						.collect(Collectors.toSet()));
+		dto.setBelongToUserIds(CollectionUtils.isEmpty(belongTo) ? new HashSet<>()
+				: belongTo.parallelStream().map(User::getId)
+						.collect(Collectors.toSet()));
+		dto.setNoteIds(CollectionUtils.isEmpty(notes) ? new HashSet<>()
+				: notes.parallelStream().map(Note::getId).collect(Collectors.toSet()));
+		dto.setShoppingListIds(CollectionUtils.isEmpty(shoppingLists) ? new HashSet<>()
+				: shoppingLists.parallelStream().map(ShoppingList::getId).collect(Collectors.toSet()));
+		dto.setOwnerId(owner.getId());
+		dto.setProductCategoryIds(CollectionUtils.isEmpty(productCategories) ? new HashSet<>()
+				: productCategories.parallelStream().map(pc -> pc.getId()).collect(Collectors.toSet()));
+		return dto;
 	}
 
 }

@@ -22,9 +22,11 @@ public class NoteService extends BaseServiceImpl<Note, Long, NoteRepository> {
     private RoomService roomService;
     private UserService userService;
 
-    public NoteService(NoteRepository noteRepository, CustomMapper modelMapper, UserService userService) {
+    public NoteService(NoteRepository noteRepository, CustomMapper modelMapper, UserService userService,
+            RoomService roomService) {
         super(noteRepository, modelMapper);
         this.userService = userService;
+        this.roomService = roomService;
     }
 
     public HttpResponse<NoteDTO> createNote(User user, NoteDTO noteDTO) {
@@ -37,6 +39,7 @@ public class NoteService extends BaseServiceImpl<Note, Long, NoteRepository> {
             note.setWriter(user);
             note.setWriteIn(room);
             this.save(note);
+            res.setData(note.getDTO());
             res.setCode(200L);
             res.setMessage(Messages.sucefull);
         }
@@ -44,11 +47,11 @@ public class NoteService extends BaseServiceImpl<Note, Long, NoteRepository> {
     }
 
     public HttpResponse<NoteDTO> deleteNote(User user, NoteDTO noteDTO) {
-        Room room = roomService.findById(noteDTO.getRoomId());
+        Note note = this.findById(noteDTO.getId());
         HttpResponse<NoteDTO> res = new HttpResponse<>();
         res.setMessage(Errors.notYourSelf);
         res.setCode(400L);
-        Note note = this.findById(noteDTO.getId());
+        Room room = note.getWriteIn();
         if (room != null && room.getAllMembers().contains(user) && note != null) {
             room.getNotes().remove(note);
             User writer = userService.findById(note.getWriter().getId());
@@ -66,7 +69,7 @@ public class NoteService extends BaseServiceImpl<Note, Long, NoteRepository> {
         List<Note> notes = repository.findByRoomId(id);
         res.setCode(200L);
         res.setMessage(Messages.sucefull);
-        res.setData(notes.parallelStream().map(n -> modelMapper.map(n, NoteDTO.class)).collect(Collectors.toList()));
+        res.setData(notes.parallelStream().map(Note::getDTO).collect(Collectors.toList()));
         return res;
     }
 

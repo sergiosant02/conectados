@@ -20,7 +20,6 @@ import com.sergiosantiago.conectados.config.CustomMapper;
 import com.sergiosantiago.conectados.dao.RoomDao;
 import com.sergiosantiago.conectados.dao.UserDao;
 import com.sergiosantiago.conectados.dtos.ProductCategoryDTO;
-import com.sergiosantiago.conectados.dtos.ProductDTO;
 import com.sergiosantiago.conectados.dtos.RoomDTO;
 import com.sergiosantiago.conectados.dtos.UserDTO;
 import com.sergiosantiago.conectados.dtos.ext.ProductExtDTO;
@@ -30,6 +29,7 @@ import com.sergiosantiago.conectados.models.ProductCategory;
 import com.sergiosantiago.conectados.models.Room;
 import com.sergiosantiago.conectados.models.User;
 import com.sergiosantiago.conectados.models.auth.HttpResponse;
+import com.sergiosantiago.conectados.repository.ProductCategoryRepository;
 import com.sergiosantiago.conectados.repository.RoomRepository;
 import com.sergiosantiago.conectados.services.base.BaseServiceImpl;
 
@@ -37,6 +37,7 @@ import com.sergiosantiago.conectados.services.base.BaseServiceImpl;
 public class RoomService extends BaseServiceImpl<Room, Long, RoomRepository> {
 
 	private UserService userService;
+	private ProductCategoryRepository productCategoryRepository;
 
 	@Autowired
 	private UserDao userDao;
@@ -44,9 +45,11 @@ public class RoomService extends BaseServiceImpl<Room, Long, RoomRepository> {
 	@Autowired
 	private RoomDao roomDao;
 
-	public RoomService(RoomRepository roomRepository, CustomMapper modelMapper, UserService userService) {
+	public RoomService(RoomRepository roomRepository, CustomMapper modelMapper, UserService userService,
+			ProductCategoryRepository productCategoryRepository) {
 		super(roomRepository, modelMapper);
 		this.userService = userService;
+		this.productCategoryRepository = productCategoryRepository;
 
 	}
 
@@ -56,7 +59,7 @@ public class RoomService extends BaseServiceImpl<Room, Long, RoomRepository> {
 		room.setOwner(user);
 		user.getRoomOwner().add(room);
 		this.save(room);
-		return modelMapper.map(room, RoomDTO.class);
+		return room.getDTO();
 	}
 
 	@Transactional
@@ -85,9 +88,14 @@ public class RoomService extends BaseServiceImpl<Room, Long, RoomRepository> {
 		List<UserDTO> res = new ArrayList<>();
 		if (room.isPresent()) {
 			res.addAll(this.getRoomsGuest(room.get()));
-			res.add(modelMapper.map(room.get().getOwner(), UserDTO.class));
+			res.add(room.get().getOwner().getDTO());
 		}
 		return res;
+	}
+
+	@Transactional
+	private ProductCategory saveCategory(ProductCategory category) {
+		return productCategoryRepository.save(category);
 	}
 
 	@Transactional
@@ -97,7 +105,6 @@ public class RoomService extends BaseServiceImpl<Room, Long, RoomRepository> {
 		Optional<Room> roomOpt = repository.findByCode(roomCode);
 		if (roomOpt.isPresent()) {
 			Room room = roomOpt.get();
-			RoomDTO dto = modelMapper.map(room, RoomDTO.class);
 			if (room.getOwner().getId().equals(user.getId())) {
 				res.setMessage(Errors.isOwner);
 			} else if (room.getBelongTo().stream().map(u -> u.getId()).toList().contains(user.getId())) {
@@ -106,7 +113,7 @@ public class RoomService extends BaseServiceImpl<Room, Long, RoomRepository> {
 				room.getBelongTo().add(user);
 				user.getRoomIn().add(room);
 				room = repository.save(room);
-				res.setData(modelMapper.map(room, RoomDTO.class));
+				res.setData(room.getDTO());
 				res.setCode(200L);
 			}
 		} else {
@@ -162,7 +169,7 @@ public class RoomService extends BaseServiceImpl<Room, Long, RoomRepository> {
 				this.save(room);
 				res.setCode(200L);
 				res.setMessage(Messages.usersFiredOk);
-				res.setData(modelMapper.map(room, RoomDTO.class));
+				res.setData(room.getDTO());
 			} else {
 				res.setCode(400L);
 				res.setMessage(Errors.notYourSelf);
@@ -206,9 +213,9 @@ public class RoomService extends BaseServiceImpl<Room, Long, RoomRepository> {
 			Set<ProductCategory> categories = products.parallelStream().map(p -> p.getCategories()).flatMap(Set::stream)
 					.collect(Collectors.toSet());
 			ProductExtDTO productExtDTO = new ProductExtDTO(
-					products.parallelStream().map(p -> modelMapper.map(p, ProductDTO.class))
+					products.parallelStream().map(Product::getDTO)
 							.collect(Collectors.toSet()),
-					categories.parallelStream().map(c -> modelMapper.map(c, ProductCategoryDTO.class))
+					categories.parallelStream().map(ProductCategory::getDTO)
 							.collect(Collectors.toSet()));
 			res.setData(productExtDTO);
 			res.setCode(200L);
@@ -222,7 +229,7 @@ public class RoomService extends BaseServiceImpl<Room, Long, RoomRepository> {
 		res.setCode(400L);
 		res.setMessage(Errors.notWork);
 		ProductCategory productCategory = modelMapper.map(productCategoryDTO, ProductCategory.class);
-		Room room = findById(productCategoryDTO.getRommId());
+		Room room = findById(productCategoryDTO.getRoomId());
 		if (room != null) {
 			room.getProductCategories().add(productCategory);
 			productCategory.setRoom(room);
@@ -230,27 +237,53 @@ public class RoomService extends BaseServiceImpl<Room, Long, RoomRepository> {
 			productCategory.setRegisterBy(user);
 			user.getProductCategories().add(productCategory);
 			this.save(room);
+			this.saveCategory(productCategory);
 			res.setCode(200L);
+			res.setData(productCategory.getDTO());
 			res.setMessage(Messages.sucefull);
 		}
 
 		return res;
 	}
 
-	public HttpResponse<RoomExtDTO> getAllRoomInfo(RoomDTO roomDTO) {
+	@Transactional
+	private void deleteCategory(Long id) {
+		this.productCategoryRepository.deleteById(id);
+	}
+
+	public HttpResponse<ProductCategoryDTO> deleteCategory(User user, Long id) {
+		HttpResponse<ProductCategoryDTO> res = new HttpResponse<>();
+		res.setCode(400L);
+		res.setMessage(Errors.notWork);
+		ProductCategory productCategory = this.productCategoryRepository.findById(id).orElse(null);
+		if (productCategory != null) {
+			if (productCategory.getRegisterBy().equals(user)) {
+				productCategory.getProducts().parallelStream().forEach(p -> p.getCategories().remove(productCategory));
+				productCategory.getRoom().getProductCategories().remove(productCategory);
+				productCategory.getRegisterBy().getProductCategories().remove(productCategory);
+				this.deleteCategory(id);
+				res.setCode(200L);
+				res.setMessage(Messages.deleteOk);
+			}
+		}
+		return res;
+	}
+
+	public HttpResponse<RoomExtDTO> getAllRoomInfo(Long id) {
 		HttpResponse<RoomExtDTO> res = new HttpResponse<>();
 		res.setCode(400L);
 		res.setMessage(Errors.notWork);
-		Room room = findById(roomDTO.getId());
+		Room room = findById(id);
 		if (room != null) {
 			RoomExtDTO roomExtDto = new RoomExtDTO();
 			roomExtDto.getProductCategoryDTOs().addAll(room.getProductCategories().parallelStream()
-					.map(pc -> modelMapper.map(pc, ProductCategoryDTO.class)).collect(Collectors.toSet()));
+					.map(ProductCategory::getDTO).collect(Collectors.toSet()));
 			roomExtDto.getProductDTOs().addAll(room.getProducts().parallelStream()
-					.map(pc -> modelMapper.map(pc, ProductDTO.class)).collect(Collectors.toSet()));
-			roomExtDto.setRoomDTO(roomDTO);
+					.map(Product::getDTO).collect(Collectors.toSet()));
+			roomExtDto.setRoomDTO(room.getDTO());
 			res.setCode(200L);
 			res.setMessage(Messages.sucefull);
+			res.setData(roomExtDto);
 		}
 		return res;
 	}

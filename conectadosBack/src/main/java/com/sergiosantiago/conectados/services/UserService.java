@@ -81,7 +81,7 @@ public class UserService extends BaseServiceImpl<User, Long, UserRepository> imp
 			user = this.save(user);
 
 			final String token = jwtTokenUtil.generateToken(user);
-			res = ResponseEntity.ok(new JwtResponse(token, user));
+			res = ResponseEntity.ok(new JwtResponse(token, user.getDTO()));
 		}
 		return res;
 	}

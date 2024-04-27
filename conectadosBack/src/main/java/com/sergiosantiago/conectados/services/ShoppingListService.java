@@ -14,6 +14,7 @@ import com.sergiosantiago.conectados.Utils.Messages;
 import com.sergiosantiago.conectados.config.CustomMapper;
 import com.sergiosantiago.conectados.dtos.ShoppingItemDTO;
 import com.sergiosantiago.conectados.dtos.ShoppingListDTO;
+import com.sergiosantiago.conectados.dtos.ext.ShoppingListDataExtDTO;
 import com.sergiosantiago.conectados.dtos.ext.ShoppingListExtDTO;
 import com.sergiosantiago.conectados.models.Product;
 import com.sergiosantiago.conectados.models.Room;
@@ -40,15 +41,18 @@ public class ShoppingListService extends BaseServiceImpl<ShoppingList, Long, Sho
         this.productService = productService;
     }
 
-    public HttpResponse<Set<ShoppingListDTO>> getAllShoppingList(User user, Long id) {
-        HttpResponse<Set<ShoppingListDTO>> res = new HttpResponse<>();
+    public HttpResponse<Set<ShoppingListDataExtDTO>> getAllShoppingList(User user, Long id) {
+        HttpResponse<Set<ShoppingListDataExtDTO>> res = new HttpResponse<>();
         res.setCode(400L);
         res.setMessage(Errors.notWork);
         Room room = this.roomService.findById(id);
+        Set<ShoppingListDataExtDTO> resData = new HashSet<>();
         if (room != null && room.getAllMembers().contains(user)) {
             Set<ShoppingList> shoppingLists = room.getShoppingLists();
-            res.setData(shoppingLists.parallelStream().map(s -> modelMapper.map(s, ShoppingListDTO.class))
-                    .collect(Collectors.toSet()));
+            shoppingLists.parallelStream().forEach(sl -> {
+                resData.add(sl.getExtDataDTO());
+            });
+            res.setData(resData);
             res.setCode(200L);
             res.setMessage(Messages.sucefull);
         }
@@ -62,11 +66,12 @@ public class ShoppingListService extends BaseServiceImpl<ShoppingList, Long, Sho
         Room room = this.roomService.findById(shoppingListDTO.getRoomId());
         if (room != null && room.getAllMembers().contains(user)) {
             ShoppingList shoppingList = modelMapper.map(shoppingListDTO, ShoppingList.class);
+            shoppingList.setRoom(room);
             shoppingList.setItems(new HashSet<>());
             shoppingList.setCompleted(false);
             room.getShoppingLists().add(shoppingList);
             this.save(shoppingList);
-            res.setData(modelMapper.map(shoppingList, ShoppingListDTO.class));
+            res.setData(shoppingList.getDTO());
             res.setCode(200L);
             res.setMessage(Messages.sucefull);
         }
@@ -94,13 +99,16 @@ public class ShoppingListService extends BaseServiceImpl<ShoppingList, Long, Sho
         return res;
     }
 
-    public HttpResponse<ShoppingListDTO> deleteShoppingList(User user, ShoppingListDTO shoppingListDTO) {
-        HttpResponse<ShoppingListDTO> res = new HttpResponse<>();
+    public HttpResponse<ShoppingListDataExtDTO> deleteShoppingList(User user, ShoppingListDataExtDTO shoppingListDTO) {
+        HttpResponse<ShoppingListDataExtDTO> res = new HttpResponse<>();
         res.setCode(400L);
         res.setMessage(Errors.notWork);
         Room room = this.roomService.findById(shoppingListDTO.getRoomId());
         ShoppingList shoppingList = this.findById(shoppingListDTO.getId());
         if (room != null && room.getAllMembers().contains(user) && shoppingList != null) {
+            shoppingList.getItems().stream().forEach(item -> {
+                this.deleteItemById(item.getId());
+            });
             room.getShoppingLists().remove(shoppingList);
             this.delete(shoppingList);
             res.setCode(200L);
@@ -109,16 +117,17 @@ public class ShoppingListService extends BaseServiceImpl<ShoppingList, Long, Sho
         return res;
     }
 
-    public HttpResponse<ShoppingListDTO> changeCompleteStatus(User user, ShoppingListDTO shoppingListDTO) {
-        HttpResponse<ShoppingListDTO> res = new HttpResponse<>();
+    public HttpResponse<ShoppingListDataExtDTO> changeCompleteStatus(User user,
+            ShoppingListDataExtDTO shoppingListDTO) {
+        HttpResponse<ShoppingListDataExtDTO> res = new HttpResponse<>();
         res.setCode(400L);
         res.setMessage(Errors.notWork);
         Room room = this.roomService.findById(shoppingListDTO.getRoomId());
         ShoppingList shoppingList = this.findById(shoppingListDTO.getId());
         if (room != null && room.getAllMembers().contains(user) && shoppingList != null) {
-            shoppingList.setCompleted(shoppingList.getCompleted());
+            shoppingList.setCompleted(!shoppingList.getCompleted());
             this.save(shoppingList);
-            res.setData(modelMapper.map(shoppingList, ShoppingListDTO.class));
+            res.setData(shoppingList.getExtDataDTO());
             res.setCode(200L);
             res.setMessage(Messages.sucefull);
         }
@@ -139,8 +148,9 @@ public class ShoppingListService extends BaseServiceImpl<ShoppingList, Long, Sho
                 product.getShoppingItems().add(shoppingItem);
                 shoppingItem.setShoppingList(shoppingList);
                 shoppingList.getItems().add(shoppingItem);
+                this.saveItem(shoppingItem);
                 this.save(shoppingList);
-                res.setData(modelMapper.map(shoppingItem, ShoppingItemDTO.class));
+                res.setData(shoppingItem.getDTO());
                 res.setCode(200L);
                 res.setMessage(Messages.sucefull);
             }
@@ -165,6 +175,16 @@ public class ShoppingListService extends BaseServiceImpl<ShoppingList, Long, Sho
             }
         }
         return res;
+    }
+
+    @Transactional
+    private void deleteItemById(Long id) {
+        this.shoppingItemRepository.deleteById(id);
+    }
+
+    @Transactional
+    private ShoppingItem saveItem(ShoppingItem item) {
+        return this.shoppingItemRepository.save(item);
     }
 
     @Transactional

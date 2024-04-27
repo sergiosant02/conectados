@@ -12,9 +12,9 @@ import lombok.Setter;
 public class ShoppingItemDTO {
 
     private Long id;
-    private String name;
     private Double quantity;
     private Long shoppingListId;
     private Long productId;
     private Double value;
+    private String name;
 }

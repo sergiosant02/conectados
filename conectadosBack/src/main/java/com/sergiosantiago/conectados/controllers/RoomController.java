@@ -35,7 +35,7 @@ public class RoomController {
     }
 
     @PostMapping("/create")
-    public RoomDTO postMethodName(@AuthenticationPrincipal UserDetails userDetails, @RequestBody RoomDTO roomDTO) {
+    public RoomDTO createRoom(@AuthenticationPrincipal UserDetails userDetails, @RequestBody RoomDTO roomDTO) {
         User user = Utils.getUserFromRequest(userDetails, userService);
         RoomDTO room = roomService.createRoom(roomDTO, user);
 
@@ -48,7 +48,7 @@ public class RoomController {
     }
 
     @PostMapping("/join")
-    public HttpResponse<RoomDTO> postMethodName(@RequestBody RoomDTO roomDTO,
+    public HttpResponse<RoomDTO> joinToRoom(@RequestBody RoomDTO roomDTO,
             @AuthenticationPrincipal UserDetails userDetails) {
         String code = roomDTO.getCode();
         User user = Utils.getUserFromRequest(userDetails, userService);
@@ -85,15 +85,22 @@ public class RoomController {
 
     @GetMapping("/allRoomInfo")
     public HttpResponse<RoomExtDTO> getAllRoomInfo(
-            @RequestBody RoomDTO roomDTO) {
-        return roomService.getAllRoomInfo(roomDTO);
+            @RequestParam(value = "id") Long id) {
+        return roomService.getAllRoomInfo(id);
+    }
+
+    @PostMapping("/deleteCategory")
+    public HttpResponse<ProductCategoryDTO> deleteCategoryForRoom(@AuthenticationPrincipal UserDetails userDetails,
+            @RequestBody ProductCategoryDTO productCategoryDTO) {
+        User user = Utils.getUserFromRequest(userDetails, userService);
+        return roomService.deleteCategory(user, productCategoryDTO.getId());
     }
 
     @PostMapping("/createCatgeory")
     public HttpResponse<ProductCategoryDTO> createCategoryForRoom(@AuthenticationPrincipal UserDetails userDetails,
-            @RequestBody ProductCategoryDTO categoryDTO) {
+            @RequestBody ProductCategoryDTO productCategoryDTO) {
         User user = Utils.getUserFromRequest(userDetails, userService);
-        return roomService.createProductCategory(user, categoryDTO);
+        return roomService.createProductCategory(user, productCategoryDTO);
     }
 
 }

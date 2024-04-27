@@ -30,19 +30,19 @@ public class NoteController {
         this.userService = userService;
     }
 
-    @GetMapping("/getRoomNotes")
-    public HttpResponse<List<NoteDTO>> getMethodName(@RequestParam(value = "id") Long id) {
+    @GetMapping("/notes")
+    public HttpResponse<List<NoteDTO>> getNotes(@RequestParam(value = "id") Long id) {
         return noteService.getAllNotesByRoom(id);
     }
 
-    @PostMapping("/deleteNote")
+    @PostMapping("/delete")
     public HttpResponse<NoteDTO> deleteNote(@AuthenticationPrincipal UserDetails userDetails,
             @RequestBody NoteDTO noteDTO) {
         User user = Utils.getUserFromRequest(userDetails, userService);
         return noteService.deleteNote(user, noteDTO);
     }
 
-    @PostMapping("/createNote")
+    @PostMapping("/create")
     public HttpResponse<NoteDTO> createNote(@AuthenticationPrincipal UserDetails userDetails,
             @RequestBody NoteDTO noteDTO) {
         User user = Utils.getUserFromRequest(userDetails, userService);
