@@ -32,8 +32,6 @@ export class CreateTicketComponent {
       const loading = await this.loadingCtrl.create({});
       loading.present();
       this.ticketForm.value.roomId = this.roomId;
-      console.log(this.roomId);
-      console.log(this.ticketForm.value.roomId);
       this.dataManagement
         .createShoppingList(this.ticketForm.value)
         .then(async (data) => {
