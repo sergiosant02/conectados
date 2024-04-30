@@ -237,7 +237,6 @@ public class RoomService extends BaseServiceImpl<Room, Long, RoomRepository> {
 			productCategory.setRegisterBy(user);
 			user.getProductCategories().add(productCategory);
 			this.save(room);
-			this.saveCategory(productCategory);
 			res.setCode(200L);
 			res.setData(productCategory.getDTO());
 			res.setMessage(Messages.sucefull);

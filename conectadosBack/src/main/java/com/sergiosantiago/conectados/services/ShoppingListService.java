@@ -12,11 +12,13 @@ import org.springframework.stereotype.Service;
 import com.sergiosantiago.conectados.Utils.Errors;
 import com.sergiosantiago.conectados.Utils.Messages;
 import com.sergiosantiago.conectados.config.CustomMapper;
+import com.sergiosantiago.conectados.dtos.ProductDTO;
 import com.sergiosantiago.conectados.dtos.ShoppingItemDTO;
 import com.sergiosantiago.conectados.dtos.ShoppingListDTO;
 import com.sergiosantiago.conectados.dtos.ext.ShoppingListDataExtDTO;
 import com.sergiosantiago.conectados.dtos.ext.ShoppingListExtDTO;
 import com.sergiosantiago.conectados.models.Product;
+import com.sergiosantiago.conectados.models.ProductCategory;
 import com.sergiosantiago.conectados.models.Room;
 import com.sergiosantiago.conectados.models.ShoppingItem;
 import com.sergiosantiago.conectados.models.ShoppingList;
@@ -155,6 +157,28 @@ public class ShoppingListService extends BaseServiceImpl<ShoppingList, Long, Sho
                 res.setMessage(Messages.sucefull);
             }
         }
+        return res;
+    }
+
+    public HttpResponse<ProductDTO> deleteProduct(User user, ProductDTO productDTO) {
+        HttpResponse<ProductDTO> res = new HttpResponse<>();
+        res.setCode(400L);
+        Product product = productService.findById(productDTO.getId());
+        if (product != null && product.getRegisterBy().equals(user)) {
+            Set<ProductCategory> categories = product.getCategories().parallelStream().collect(Collectors.toSet());
+            Set<ShoppingItem> shoppingItemLists = product.getShoppingItems();
+            categories.parallelStream().forEach(c -> c.getProducts().remove(product));
+            shoppingItemLists.stream().forEach(i -> {
+                this.deleteShoppingItem(user, i.getDTO());
+            });
+            user.getProducts().remove(product);
+            productService.delete(product);
+            res.setCode(200L);
+            res.setMessage(Messages.deleteOk);
+        } else {
+            res.setMessage(Errors.notWork);
+        }
+
         return res;
     }
 

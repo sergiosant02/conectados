@@ -1,8 +1,10 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ModalController } from '@ionic/angular';
-import { ProductDTO } from 'src/app/dtos/typesDtos';
+import { constants } from 'src/app/constants.ts';
+import { ProductDTO, RoomDTO } from 'src/app/dtos/typesDtos';
 import { ShoppingListDataExtDTO } from 'src/app/dtos/typesExtDtos';
 import { DataManagementService } from 'src/app/services/data-management.service';
+import { PersistenceService } from 'src/app/services/persistence.service';
 import { AddShoppingItemComponent } from '../add-shopping-item/add-shopping-item.component';
 
 @Component({
@@ -14,13 +16,18 @@ export class ItemsTableComponent implements OnInit {
   @Input() products: ProductDTO[] = [];
   @Input() onEditionMode: boolean = false;
   @Input({ required: true }) shoppingList: ShoppingListDataExtDTO | undefined;
+  room: RoomDTO;
+  constants = constants;
 
   totalCost: number = 0.0;
 
   constructor(
     private modalCtrl: ModalController,
-    private datamanagement: DataManagementService
-  ) {}
+    private datamanagement: DataManagementService,
+    private persistenceService: PersistenceService
+  ) {
+    this.room = this.persistenceService.getValue(constants.SELECTED_ROOM);
+  }
   ngOnInit(): void {
     this.shoppingList?.items.sort((a, b) =>
       a.name!.replace(/ /g, '').localeCompare(b.name!.replace(/ /g, ''))
@@ -31,6 +38,9 @@ export class ItemsTableComponent implements OnInit {
   }
 
   public async addArticle() {
+    this.products = (
+      await this.datamanagement.getRoom(this.room.id)
+    ).data.productDTOs;
     const modal = await this.modalCtrl.create({
       component: AddShoppingItemComponent,
       componentProps: {
