@@ -150,3 +150,5 @@ ionic serve
 ```
 
 Tras esto, se debe de ejecutar el proyecto de formma local apuntando al backend, el cual está corriendo gracias a Docker. Debería de abrir una ventana del navegador de forma automática tras finalizar el proceso de compilación, de todos modos, es aconsejable acceder a la url [http://localhost:8100](http://localhost:8100) desde una ventana de incognito de su navegador preferido. Acto seguido ya puede probar la aplicación con total libertad.
+
+Video: [Video](https://drive.google.com/file/d/1R-1bcwsY4c4vTSf1PbidowaKWqBqk-u4/view?usp=drive_link)
