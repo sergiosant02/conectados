@@ -1,0 +1,81 @@
+@startuml Basic Sample
+enum Gender {
+    MALE, FEMALE, OTHER
+}
+
+class User {
+    String name
+    String lastname
+    String email 
+    Date birthdate
+    String password
+    String picture
+    String role
+    Boolean enabled
+    Gender gender
+    Date cretedAt
+    Date updatedAt
+}
+
+class Room {
+    String name
+    String code
+    String description
+    Date cretedAt
+    Date updatedAt
+}
+
+class Note {
+    String title
+    String body
+    String description
+    Date cretedAt
+    Date updatedAt
+}
+
+class Product {
+    String name
+    String picture
+    Date cretedAt
+    Date updatedAt
+}
+
+class ProductCategory {
+    String name
+    Date cretedAt
+    Date updatedAt
+}
+
+class ShoppingList {
+    String name
+    Boolean completed
+    Date cretedAt
+    Date updatedAt
+}
+
+class ShoppingItem {
+    Double quantity
+    Double value
+    Date cretedAt
+    Date updatedAt
+}
+
+
+User "m" <--> "n" Room: roomIn
+User "1" <--> "n" Room: owner
+User "1" <--> "n" Notes: writer
+User "1" <--> "n" Product: registerBy
+User "1" <--> "n" ProductCategory: registerBy
+
+Room "1" <--> "n" Product: room
+Room "1" <--> "n" Notes: writeIn
+Room "1" <--> "n" ProductCategory: room
+Room "1" <--> "n" ShoppingList: room
+
+Product "m" <--> "n" ProductCategory: products
+Product "1" <--> "n" ShoppingItem: products
+
+ShoppingList "1" <--> "n" ShoppingItem: shoppingList
+
+
+@enduml
