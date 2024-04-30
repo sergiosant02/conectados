@@ -8,6 +8,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
+import javax.persistence.PrePersist;
+import javax.persistence.PreUpdate;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
@@ -60,6 +62,16 @@ public abstract class BaseEntity implements Serializable {
 		BaseEntity other = (BaseEntity) obj;
 		return Objects.equals(createdAt, other.createdAt) && Objects.equals(id, other.id)
 				&& Objects.equals(updatedAt, other.updatedAt);
+	}
+
+	@PrePersist
+	protected void onCreate() {
+		createdAt = new Date();
+	}
+
+	@PreUpdate
+	protected void onUpdate() {
+		updatedAt = new Date();
 	}
 
 }
