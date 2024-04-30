@@ -116,9 +116,12 @@ export class RestService extends WsAbstractService {
   }
 
   async deleteProductIntoRoom(id: number): Promise<HttpResponse<ProductDTO>> {
-    return await this.makePostRequest(`${this.productPath}/delete`, {
-      id: id,
-    });
+    return await this.makePostRequest(
+      `${this.shoppingListPath}/deleteProduct`,
+      {
+        id: id,
+      }
+    );
   }
 
   // Notes

@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.sergiosantiago.conectados.Utils.Utils;
+import com.sergiosantiago.conectados.dtos.ProductDTO;
 import com.sergiosantiago.conectados.dtos.ShoppingItemDTO;
 import com.sergiosantiago.conectados.dtos.ShoppingListDTO;
 import com.sergiosantiago.conectados.dtos.ext.ShoppingListDataExtDTO;
@@ -60,6 +61,13 @@ public class ShoppingListController {
             @RequestBody ShoppingListDataExtDTO shoppingListDTO) {
         User user = Utils.getUserFromRequest(userDetails, userService);
         return this.shoppingListService.deleteShoppingList(user, shoppingListDTO);
+    }
+
+    @PostMapping("/deleteProduct")
+    public HttpResponse<ProductDTO> deleteProduct(@AuthenticationPrincipal UserDetails userDetails,
+            @RequestBody ProductDTO productDTO) {
+        User user = Utils.getUserFromRequest(userDetails, userService);
+        return this.shoppingListService.deleteProduct(user, productDTO);
     }
 
     @PostMapping("/changeStatus")

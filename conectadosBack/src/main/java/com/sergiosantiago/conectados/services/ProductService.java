@@ -15,6 +15,7 @@ import com.sergiosantiago.conectados.dtos.ProductDTO;
 import com.sergiosantiago.conectados.models.Product;
 import com.sergiosantiago.conectados.models.ProductCategory;
 import com.sergiosantiago.conectados.models.Room;
+import com.sergiosantiago.conectados.models.ShoppingItem;
 import com.sergiosantiago.conectados.models.User;
 import com.sergiosantiago.conectados.models.auth.HttpResponse;
 import com.sergiosantiago.conectados.repository.ProductRepository;
@@ -28,6 +29,7 @@ public class ProductService extends BaseServiceImpl<Product, Long, ProductReposi
 	private UserService userService;
 	private RoomService roomService;
 	private ProductCategoryService productCategoryService;
+	// private ShoppingListService shoppingListService;
 
 	public ProductService(ProductRepository productRepository, CustomMapper modelMapper, UserService userService,
 			RoomService roomService, ProductCategoryService productCategoryService) {
@@ -35,6 +37,7 @@ public class ProductService extends BaseServiceImpl<Product, Long, ProductReposi
 		this.userService = userService;
 		this.roomService = roomService;
 		this.productCategoryService = productCategoryService;
+		// this.shoppingListService = shoppingListService;
 	}
 
 	public List<Product> findLikeByName(String name) {
@@ -83,7 +86,9 @@ public class ProductService extends BaseServiceImpl<Product, Long, ProductReposi
 		if (product != null && product.getRegisterBy().equals(user)) {
 			Set<ProductCategory> categories = productCategoryService.findAllByIds(
 					product.getCategories().parallelStream().map(c -> c.getId()).collect(Collectors.toSet()));
+			Set<ShoppingItem> shoppingItemLists = product.getShoppingItems();
 			categories.parallelStream().forEach(c -> c.getProducts().remove(product));
+
 			user.getProducts().remove(product);
 			this.delete(product);
 			res.setCode(200L);
