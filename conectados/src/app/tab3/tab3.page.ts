@@ -51,6 +51,7 @@ export class Tab3Page implements OnInit {
   }
 
   ionViewWillEnter() {
+    this.getData();
     this.datamangement.getShoppingListOfRoom(this.roomDTO.id).then((res) => {
       this.shoppingLists = res.data.sort((a, b) =>
         a.name!.replace(/ /g, '').localeCompare(b.name!.replace(/ /g, ''))
@@ -77,6 +78,9 @@ export class Tab3Page implements OnInit {
   }
 
   public async createTicket() {
+    this.products = (
+      await this.datamangement.getRoom(this.roomDTO.id)
+    ).data.productDTOs;
     const modal = await this.modalCtrl.create({
       component: CreateTicketComponent,
       componentProps: {

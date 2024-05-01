@@ -63,12 +63,12 @@ class ShoppingItem {
 
 User "m" <--> "n" Room: roomIn
 User "1" <--> "n" Room: owner
-User "1" <--> "n" Notes: writer
+User "1" <--> "n" Note: writer
 User "1" <--> "n" Product: registerBy
 User "1" <--> "n" ProductCategory: registerBy
 
 Room "1" <--> "n" Product: room
-Room "1" <--> "n" Notes: writeIn
+Room "1" <--> "n" Note: writeIn
 Room "1" <--> "n" ProductCategory: room
 Room "1" <--> "n" ShoppingList: room
 

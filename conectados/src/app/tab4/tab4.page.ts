@@ -47,7 +47,7 @@ export class Tab4Page implements OnInit {
   async leaveRoom() {
     this.loading?.present();
     this.datamangement.leaveRoom(this.room.id).then((res) => {
-      this.router.navigate(['/select-room']);
+      this.navController.navigateRoot('/select-room');
       this.loading?.dismiss();
     });
   }
@@ -64,7 +64,7 @@ export class Tab4Page implements OnInit {
     this.loading?.present();
     this.datamangement.deleteRoom(this.room.id).then((res) => {
       this.loading?.dismiss();
-      this.router.navigate(['/select-room']);
+      this.navController.navigateRoot('/select-room');
     });
   }
 }

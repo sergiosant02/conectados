@@ -33,6 +33,14 @@ export class SelectRoomPage implements OnInit {
     });
   }
 
+  ionViewWillEnter() {
+    this.dataManagementService.getRoomsMember().then((data) => {
+      this.rooms = data.sort((a, b) =>
+        a.name!.replace(/ /g, '').localeCompare(b.name!.replace(/ /g, ''))
+      );
+    });
+  }
+
   async copyToClipboard(event: Event, roomIndex: number) {
     event.stopPropagation();
     await Clipboard.write({
